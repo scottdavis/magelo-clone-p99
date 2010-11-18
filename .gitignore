@@ -3,4 +3,3 @@
 *.sqlite3
 public/images/graph/*
 log/*.log
-*.sql
