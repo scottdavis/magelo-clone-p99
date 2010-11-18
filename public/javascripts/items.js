@@ -6,7 +6,6 @@ function find_item(item, slot){
       var name = data[i].item.name
       var id = data[i].item.id
       var content = name;
-      console.log(data[i].item.magic)
       if (data[i].item.magic == 1) {
         content = content + ' ' + '(magic)';
       }
