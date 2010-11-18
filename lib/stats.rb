@@ -99,7 +99,7 @@ def get_max_defense(klass, level)
       return (level * 2.9).round
     when 'Warrior', 'ShadowKnight', 'Paladin'
       return (level * 4.2).round
-    when 'Rogue', 'Bard', 'Ranger', 'Cleric', 'Druid'
+    when 'Rogue', 'Bard', 'Ranger', 'Cleric', 'Druid', 'Shaman'
       return (level * 4.0).round
     when 'Monk'
       return (level * 4.6).round
@@ -477,7 +477,7 @@ def get_acmod(level, agility)
 end
 
 def get_ac(acmod, defense, klass, item_ac, level, race)
-  avoidance = (acmod + ((defense * 16)/9))
+  avoidance = (acmod + ((defense *  16)/9))
   avoidance = 0 if avoidance < 0
   
   mitigation  = 0
