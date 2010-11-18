@@ -1,7 +1,7 @@
 class CreateItems < ActiveRecord::Migration
   def self.up
     items = Rails.root.join('db', 'items.sql')
-    require 'YAML'
+    require 'yaml'
     info = YAML::load(IO.read(Rails.root.join('config/database.yml')))
     user = info[Rails.env]['username']
     password = info[Rails.env]['password']
