@@ -15,8 +15,10 @@
       = f.label slot, filter_slot_name(slot)
       %br
       - item = @character.send(slot).name unless @character.send(slot).blank?
-      = f.text_field slot, :class => 'item_finder', :value => item
-      %a{:onclick => "find_item($('#slots_#{slot}').val(), '#{slot}');return false;", :href => 'javascript:void(0)'}
+      - item_id = @character.send(slot).id unless @character.send(slot).blank?
+      = f.text_field slot, :class => 'item_finder', :value => item, :id => "slots_#{slot}_fake", :name => ''
+      = f.hidden_field slot, :value => item_id
+      %a{:onclick => "find_item($('#slots_#{slot}_fake').val(), '#{slot}');return false;", :href => 'javascript:void(0)'}
         Find Item
       .item_data{:id => "#{slot}_data"}
   = f.submit "Update Slots"

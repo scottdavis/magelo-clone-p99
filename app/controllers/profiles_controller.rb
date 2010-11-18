@@ -13,7 +13,8 @@ class ProfilesController < ApplicationController
   def slots
     return if request.get?
     params[:slots].each do |k, v|
-      @character.send("#{k}=", Item.find_by_name(v))
+      next if v.blank?
+      @character.send("#{k}=", Item.find(v))
     end
     if @character.save
       redirect_to profile_path(@character.id)
