@@ -2,6 +2,8 @@ module ApplicationHelper
   
   SIZE = %w(TINY SMALL MEDIUM LARGE GIANT GIANT)
   WEAPON_TYPE = ['1H Slashing', '2H Slashing', 'Piercing', '1H Blunt', '2H Blunt', 'Archery', 'Throwing', '2H Piercing', 'Hand to Hand']
+  WEAPON_TYPE[45] = 'Hand to Hand'
+  WEAPON_TYPE[19] = 'Throwing'
   
   def get_slot(item)
     slot = item.slots
