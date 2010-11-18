@@ -16,6 +16,11 @@
   - if item.effect?
     .effect
       = format_effect(item.effect)
+  - if item.haste > 0
+    .haste 
+      HASTE:
+      = item.haste
+      = "%"
   .stats
     = get_stats(item)
   .mid
