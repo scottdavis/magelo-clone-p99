@@ -3,6 +3,11 @@
 %h1
   Update Slots for:
   = @character.name
+.directions
+  %p 1) Find and item for a given slot start typing the item name in the text field then push the find item button 
+  %p 2) A list of valid item's will appear
+  %p 3) Select item from list
+  %p 5) Continue until finished
 = form_for :slots do |f|
   = render :partial => 'errors'
   - Character::SLOTS.each do |slot|
