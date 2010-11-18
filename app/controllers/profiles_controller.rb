@@ -33,7 +33,6 @@ class ProfilesController < ApplicationController
   end
   
   def show
-    expires_in(10.minutes)
     @character = Character.with_slots.find(params[:id])
   end
   
