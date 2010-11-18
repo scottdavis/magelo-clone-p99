@@ -1,6 +1,5 @@
 function find_item(item, slot){
   $.get('/items/search.json?name=' + item, function(data){
-    console.log(data);
     var div = $('#' + slot + '_data');
     var nodes = []
     $.each(data, function(i){
