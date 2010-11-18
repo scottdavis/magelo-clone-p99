@@ -29,11 +29,10 @@ test:
   socket: /tmp/mysql.sock
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: magelo_production
+  adapter: mysql
+  database: goon_magelo
+  username: auction
+  password: auction
+  socket: /var/run/mysqld/mysqld.sock
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  timeout: 5000

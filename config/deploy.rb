@@ -1,5 +1,5 @@
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
-set :application, "auction"
+set :application, "magelo"
 set :repository,  "git@github.com:jetviper21/magelo.git"
 
 set :scm, :git
@@ -28,9 +28,6 @@ namespace :deploy do
     run "rm #{deploy_to}/current/log"
     run "mkdir #{deploy_to}/current/log"
     run "mkdir #{deploy_to}/current/public/images/graph"
-  end
-  task :cleanup_data do
-    run "RAILS_ENV=production #{rake_path} custom:cleanup"
   end
 end
 
