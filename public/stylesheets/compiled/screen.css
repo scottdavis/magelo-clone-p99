@@ -1,0 +1,341 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 12, ../../../app/stylesheets/screen.scss */
+a {
+  color: white;
+}
+
+/* line 15, ../../../app/stylesheets/screen.scss */
+a:hover {
+  color: #eee;
+}
+
+/* line 18, ../../../app/stylesheets/screen.scss */
+a:visited {
+  color: #ccc;
+}
+
+/* line 24, ../../../app/stylesheets/screen.scss */
+.landing .index p {
+  color: white;
+  padding: 5px;
+}
+
+/* line 31, ../../../app/stylesheets/screen.scss */
+#wrapper {
+  background-color: #124a7e;
+  min-height: 500px;
+}
+
+/* line 36, ../../../app/stylesheets/screen.scss */
+h1 {
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+}
+
+/* line 44, ../../../app/stylesheets/screen.scss */
+#nav p {
+  color: white;
+  padding: 5px;
+}
+/* line 47, ../../../app/stylesheets/screen.scss */
+#nav p a {
+  color: white;
+}
+
+/* line 53, ../../../app/stylesheets/screen.scss */
+.notice {
+  color: green;
+}
+
+/* line 57, ../../../app/stylesheets/screen.scss */
+.alert {
+  color: red;
+}
+
+/* line 61, ../../../app/stylesheets/screen.scss */
+div.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 67, ../../../app/stylesheets/screen.scss */
+#errorExplanation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 78, ../../../app/stylesheets/screen.scss */
+#errorExplanation h2 {
+  font-size: 19px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 89, ../../../app/stylesheets/screen.scss */
+#errorExplanation ul li {
+  color: black;
+  padding: 5px;
+  font-size: 12px;
+  list-style: none;
+  font-size: 18px;
+}
+
+/* line 97, ../../../app/stylesheets/screen.scss */
+form {
+  color: white;
+  background-color: #124a7e;
+}
+/* line 99, ../../../app/stylesheets/screen.scss */
+form h2 {
+  font-size: 24px;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+/* line 104, ../../../app/stylesheets/screen.scss */
+form label {
+  font-size: 20px;
+}
+/* line 107, ../../../app/stylesheets/screen.scss */
+form p {
+  padding: 5px;
+}
+
+/* line 114, ../../../app/stylesheets/screen.scss */
+.sessions h2, .registrations h2 {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+}
+/* line 119, ../../../app/stylesheets/screen.scss */
+.sessions .new, .registrations .new {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #124a7e;
+}
+/* line 124, ../../../app/stylesheets/screen.scss */
+.sessions .new a, .registrations .new a {
+  line-height: 2;
+  font-size: 18px;
+}
+
+/* line 133, ../../../app/stylesheets/screen.scss */
+body {
+  background-color: #3d3a3a;
+}
+
+/* line 138, ../../../app/stylesheets/screen.scss */
+.profiles .right {
+  display: inline;
+  float: right;
+}
+/* line 142, ../../../app/stylesheets/screen.scss */
+.profiles .left {
+  display: inline;
+  float: left;
+}
+/* line 146, ../../../app/stylesheets/screen.scss */
+.profiles .slots .item_data {
+  width: 350px;
+}
+/* line 149, ../../../app/stylesheets/screen.scss */
+.profiles .slots .clickable_item_data {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* line 154, ../../../app/stylesheets/screen.scss */
+.profiles .slots .clickable_item_data:hover {
+  background-color: #eee;
+}
+/* line 158, ../../../app/stylesheets/screen.scss */
+.profiles .show {
+  width: 850px;
+  height: 600px;
+  background-image: url('/images/profile_template.png?1290048865');
+}
+/* line 162, ../../../app/stylesheets/screen.scss */
+.profiles .show .about {
+  border: 1px solid white;
+  padding: 4px;
+  width: 120px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 168, ../../../app/stylesheets/screen.scss */
+.profiles .show .char_stats {
+  width: 65px;
+}
+/* line 170, ../../../app/stylesheets/screen.scss */
+.profiles .show .char_stats .haste, .profiles .show .char_stats .manaregeneration {
+  padding-top: 10px;
+}
+/* line 174, ../../../app/stylesheets/screen.scss */
+.profiles .show #character {
+  color: white;
+  font-size: 15px;
+  padding-left: 22px;
+  padding-top: 55px;
+  width: 385px;
+}
+/* line 175, ../../../app/stylesheets/screen.scss */
+.profiles .show #character #bag_area {
+  height: 240px;
+  left: 428px;
+  position: absolute;
+  top: 50px;
+  width: 100px;
+}
+/* line 182, ../../../app/stylesheets/screen.scss */
+.profiles .show #character #bags {
+  left: 325px;
+  position: absolute;
+  top: 235px;
+  width: 84px;
+}
+/* line 189, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .character {
+  width: 253px;
+  height: 180px;
+  color: white;
+}
+/* line 193, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .character .top, .profiles .show #character .character .middle, .profiles .show #character .character .bottom, .profiles .show #character .character .weapons {
+  display: inline;
+  float: right;
+  height: 41px;
+}
+/* line 198, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .left_b {
+  border-left: solid black 1px;
+}
+/* line 201, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .bottom_b {
+  border-bottom: solid black 1px;
+}
+/* line 204, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .slot {
+  display: inline;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-top: solid black 1px;
+  border-right: solid black 1px;
+}
+/* line 216, ../../../app/stylesheets/screen.scss */
+.profiles .show #character .highlighted {
+  background-image: url('/images/icon_hover.png?1290050198');
+}
+
+/* line 224, ../../../app/stylesheets/screen.scss */
+.item {
+  font-size: 15px;
+  color: white;
+  height: 135px;
+  left: 433px;
+  padding: 5px;
+  position: absolute;
+  top: 336px;
+  width: 384px;
+}
+/* line 233, ../../../app/stylesheets/screen.scss */
+.item .name {
+  font-weight: bold;
+  font-size: 24;
+}
+/* line 237, ../../../app/stylesheets/screen.scss */
+.item .icon {
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+
+/* line 242, ../../../app/stylesheets/screen.scss */
+.clear {
+  clear: both;
+}
+
+/* line 246, ../../../app/stylesheets/screen.scss */
+.hidden {
+  display: none;
+}

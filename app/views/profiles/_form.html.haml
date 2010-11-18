@@ -1,0 +1,33 @@
+= form_for(@character, :url => url_for_form?, :html => {:method => method_for_form?}) do |f|
+  = render :partial => 'errors'
+
+  %h2 Character Information
+  - [:name, :surname, :guild].each do |col|
+    %p
+      = f.label col 
+      %br
+      = f.text_field col
+  %p
+    = f.label :deity
+    %br
+    = f.select :deity, EqThing::DEITIES.map {|d| [d, d]}, :prompt => '-- Select One --'
+  %p
+    = f.label :level
+    %br
+    = f.select :level, 1.upto(::MAX_LEVEL).map {|n| [n,n]}, :prompt => '-- Select One --'
+  %p
+    = f.label :race_id
+    %br
+    = f.select :race_id, Race.for_select, :prompt => '-- Select One --'
+    %p
+      = f.label :eq_class_id, 'Class'
+      %br
+      = f.select :eq_class_id, EqClass.for_select, :prompt => '-- Select One --'
+      
+  %h2 Base Stats (Naked Stats)
+  #stats
+    - (Character::STATS + Character::RESISTS).each do |stat|
+      %p.stat
+        = f.label stat, filter_stat_name(stat)
+        = f.text_field stat, :size => 8
+  = f.submit

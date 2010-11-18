@@ -1,0 +1,43 @@
+#bags
+  - 8.times do |i|
+    - bag = @character.bags[i] unless @character.bags[i].blank?
+    - if i%2 == 0
+      - if i == 6
+        .bag.slot.left_b.bottom_b{:id => "bag_#{i}"}
+          = get_icon(bag)
+      -else
+        .bag.slot.left_b{:id => "bag_#{i}"}
+          = get_icon(bag)
+    -else
+      - if i == 7
+        .bag.slot.bottom_b{:id => "bag_#{i}"}
+          = get_icon(bag)
+      -else
+        .bag.slot{:id => "bag_#{i}"}
+          = get_icon(bag)
+          
+
+#bag_items.hidden
+  - j = 0
+  - @character.bags.each do |bag|
+    .view_bag{:id => "vb_#{j}"}
+      - slots = bag.slots.blank? ? 0 : bag.slots
+      - slots.times do |i|
+        - bs = bag.bag_slots[i] unless bag.bag_slots[i].blank?
+        - item = bs.item unless bs.blank?
+        - if i%2 == 0
+          - if i == slots - 2
+            .slot.left_b.bottom_b
+              = get_icon(item)
+          -else
+            .slot.left_b
+              = get_icon(item)
+        -else
+          - if i == slots - 1
+            .slot.bottom_b
+              = get_icon(item)
+          -else
+            .slot
+              = get_icon(item)
+    - j += 1  
+    

@@ -1,0 +1,251 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+
+$blue:#124a7e;
+
+a {
+  color:white;
+}
+a:hover {
+  color:#eee;
+}
+a:visited {
+  color:#ccc;
+}
+
+.landing {
+  .index {
+    p{
+      color:white;
+      padding:5px;
+    }
+  }
+}
+
+#wrapper {
+  background-color:$blue;
+  min-height:500px;
+}
+
+h1 {
+  color:white;
+  padding:15px;
+  font-size:30px;
+}
+
+
+#nav {
+  p{
+    color:white;
+    padding:5px;
+    a {
+      color:white;
+    }
+  }
+}
+
+.notice {
+  color: green;
+}
+
+.alert {
+  color: red;
+}
+
+div.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  margin-left:auto;
+  margin-right:auto;
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  font-size:19px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation ul li {
+  color:black;
+  padding:5px;
+  font-size: 12px;
+  list-style: none;
+  font-size:18px;
+}
+
+form {
+  color:white;
+  h2{
+    font-size: 24px;
+    padding:5px;
+    padding-bottom:10px;
+  }
+  label {
+    font-size:20px;
+  }
+  p{
+    padding:5px;
+  }
+  background-color:$blue;
+}
+
+.sessions, .registrations {
+  h2 {
+    font-size:24px;
+    color:white;
+    padding:10px;
+  }
+  .new {
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:$blue;
+    a {
+      line-height:2;
+      font-size:18px;
+    }
+  }
+}
+
+
+
+body {
+  background-color:#3d3a3a;
+}
+
+.profiles {
+  .right {
+    @include float-right;
+  }
+
+  .left {
+    @include float-left;
+  }
+  .slots {
+    .item_data {
+      width:350px;
+    }
+    .clickable_item_data {
+      background-color:white;
+      color:black;
+      border:1px solid black;
+    }
+    .clickable_item_data:hover {
+      background-color:#eee;
+    }
+  }
+  .show {
+    width:850px;
+    height:600px;
+    background-image:image_url('profile_template.png');
+    .about {
+      border:1px solid white;
+      padding:4px;
+      width:120px;
+      @include border-radius(5px);
+    }
+    .char_stats {
+      width:65px;
+      .haste, .manaregeneration {
+        padding-top:10px;
+      }
+    }
+    #character {
+      #bag_area {
+        height:240px;
+        left:428px;
+        position:absolute;
+        top:50px;
+        width:100px;
+      }
+      #bags {
+        left:325px;
+        position:absolute;
+        top:235px;
+        width:84px;
+      }
+
+      .character {
+        width:253px;
+        height:180px;
+        color:white;
+        .top, .middle, .bottom, .weapons {
+          @include float-right;
+          height:41px;
+        }
+      }
+      .left_b {
+        border-left:solid black 1px;
+      }
+      .bottom_b {
+        border-bottom:solid black 1px;
+      }
+      .slot {
+        @include float-left;
+        width:40px;
+        height:40px;
+        border-top:solid black 1px;
+        border-right:solid black 1px;
+      }
+      color:white;
+      font-size:15px;
+      padding-left:22px;
+      padding-top:55px;
+      width:385px;
+      .highlighted {
+        background-image:image_url('icon_hover.png');
+      }
+    }
+  }
+}
+
+
+.item {
+  font-size:15px;
+  color:white;
+  height:135px;
+  left:433px;
+  padding:5px;
+  position:absolute;
+  top:336px;
+  width:384px;
+  .name {
+    font-weight:bold;
+    font-size:24;
+  }
+  .icon {
+    @include float-right;
+    padding-right:10px;
+  }
+}
+.clear {
+  clear:both;
+}
+
+.hidden {
+  display:none;
+}
+
+
+

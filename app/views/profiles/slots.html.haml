@@ -1,0 +1,18 @@
+- content_for :head do
+  = javascript_include_tag 'items.js'
+%h1
+  Update Slots for:
+  = @character.name
+= form_for :slots do |f|
+  = render :partial => 'errors'
+  - Character::SLOTS.each do |slot|
+    %p
+      = f.label slot, filter_slot_name(slot)
+      %br
+      - item = @character.send(slot).name unless @character.send(slot).blank?
+      = f.text_field slot, :class => 'item_finder', :value => item
+      %a{:onclick => "find_item($('#slots_#{slot}').val(), '#{slot}');return false;", :href => 'javascript:void(0)'}
+        Find Item
+      .item_data{:id => "#{slot}_data"}
+  = f.submit "Update Slots"
+  

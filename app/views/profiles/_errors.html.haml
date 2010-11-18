@@ -1,0 +1,8 @@
+- if @character.errors.any?
+  #errorExplanation
+    %h2
+      = pluralize(@character.errors.count, "error")
+      prohibited this user from being saved:
+    %ul
+      - @character.errors.full_messages.each do |msg|
+        %li= filter_stat_name(msg)

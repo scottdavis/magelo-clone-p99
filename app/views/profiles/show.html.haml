@@ -1,0 +1,142 @@
+- content_for :head do
+  = javascript_include_tag 'character'
+- content_for :nav do
+  - if user_signed_in?
+    %p= link_to('Edit this character', edit_profile_path(@character.id))
+    %p= link_to('Update this characters items', profile_slot_path(@character.id))
+#character
+  #bag_area
+  .black
+    .right
+      .info
+        .character
+          .top
+            .lear.slot.left_b
+              = get_icon(@character.lear)
+            .neck.slot
+              = get_icon(@character.neck)
+            .face.slot
+              = get_icon(@character.face)
+            .head.slot
+              = get_icon(@character.head)
+            .rear.slot
+              = get_icon(@character.rear)
+          %br.clear
+          .middle
+            .lring.slot.left_b
+              = get_icon(@character.lring)
+            .lwrist.slot
+              = get_icon(@character.lwrist)
+            .arm.slot
+              = get_icon(@character.arm)
+            .hand.slot
+              = get_icon(@character.hand)
+            .rwrist.slot
+              = get_icon(@character.rwrist)
+            .rring.slot
+              = get_icon(@character.rring)
+          %br.clear
+          .bottom
+            .shoulders.slot.left_b.bottom_b
+              = get_icon(@character.shoulder)
+            .chest.slot.bottom_b
+              = get_icon(@character.chest)
+            .back.slot
+              = get_icon(@character.back)
+            .waist.slot
+              = get_icon(@character.waist)
+            .legs.slot
+              = get_icon(@character.leg)
+            .feet.slot
+              = get_icon(@character.foot)
+          %br.clear
+          .weapons
+            .primary.slot.bottom_b.left_b
+              = get_icon(@character.primary)
+            .secondary.slot.bottom_b
+              = get_icon(@character.secondary)
+            .range.slot.bottom_b
+              = get_icon(@character.range)
+            .ammo.slot.bottom_b
+              = get_icon(@character.ammo)
+          %br.clear
+    .left
+      .about
+        .name
+          = @character.name 
+          = @character.surname
+        .level
+          = @character.level
+          = @character.eq_class.name
+        .deity
+          = @character.deity
+        .totals
+          .hp
+            .left
+              HP
+            .right
+              = show_double_stat(@character.total_hp)
+          %br.clear
+          .mana
+            .left
+              MANA
+            .right
+              = show_double_stat(@character.total_mana)
+          %br.clear
+          .ac
+            .left
+              AC
+            .right
+              = @character.total_ac
+          %br.clear
+          .attack
+            .left
+              ATK
+            .right
+              = @character.total_attack
+          %br.clear
+        %hr
+        .char_stats
+          - Character::STATS.each do |stat|
+            %div{:class => stat.to_s}
+              .s_title.left
+                = stat.to_s.upcase
+              .s_value.right
+                = @character.send(stat)
+              %br.clear
+          - if @character.haste > 0
+            .haste
+              .left
+                HASTE
+              .right
+                = @character.haste
+              %br.clear
+          - if @character.manaregen > 0
+            .manaregeneration
+              .left
+                FT
+              .right
+                = @character.manaregen
+              %br.clear
+          %hr
+          .saves
+            - Character::RESISTS.each do |resist|
+              %div{:class => resist.to_s}
+                .s_title.left
+                  = resist.to_s.upcase
+                .s_value.right
+                  = @character.send("total_#{resist}")
+                %br.clear
+                
+          
+    %br.clear
+    = render :partial => 'bags'
+#itemdiv.item{:style => 'display:none;'}
+.items.hidden
+  - @character.all_slots.uniq.compact.each do |item|
+    = render :partial => 'item', :locals => {:item => item}
+  - @character.bags.uniq.each do |bag|
+    = render :partial => 'item', :locals => {:item => bag.item}
+  - @character.bags.map(&:bag_slots).flatten.each do |b_item|
+    - next unless b_item.respond_to?(:item)
+    = render(:partial => 'item', :locals => {:item => b_item.item})
