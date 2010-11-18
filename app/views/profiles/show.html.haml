@@ -102,7 +102,7 @@
               .s_title.left
                 = stat.to_s.upcase
               .s_value.right
-                = @character.send(stat)
+                = @character.send("total_#{stat}")
               %br.clear
           - if @character.haste > 0
             .haste
