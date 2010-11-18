@@ -81,7 +81,7 @@ module ApplicationHelper
   end
   
   def get_skill(item)
-    return '' unless (0..WEAPON_TYPE.size).member?(item.itemtype) || [45, 19].member?(item.itemtype) 
+    return '' unless item.itemtype <= WEAPON_TYPE.size
     ratio = item.damage.to_f/item.delay.to_f unless item.delay == 0
     return "Skill: #{WEAPON_TYPE[item.itemtype]} DMG: #{item.damage} Delay: #{item.delay} Ratio: #{ratio.round(1)}" if item.itemtype > 1 && item.delay > 0 && item.damage > 0
   end
