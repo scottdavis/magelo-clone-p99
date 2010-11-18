@@ -8,7 +8,6 @@ module ProfilesHelper
     out = []
     out << "Effect: #{spell.name}"
     casttime = spell.cast_time.to_f * 0.002
-    puts casttime
     casttime = 'instant' if casttime.floor < 1
     out << "(Casting Time: #{casttime})"
     out.join(' ')
