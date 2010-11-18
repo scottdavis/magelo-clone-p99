@@ -19,5 +19,5 @@
         %p= link_to 'Logout', destroy_user_session_path
         = #link_to 'Account', user_path(current_user)
       - else
-        %p= link_to('Create an Account', user_registration_path)
+        %p= link_to('Create an Account', new_user_registration_path)
         %p= link_to('Sign in', new_user_session_path)
