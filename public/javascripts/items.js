@@ -9,7 +9,7 @@ function find_item(item, slot){
       if (data[i].item.magic == 1) {
         content = content + ' ' + '(magic)';
       }
-      nodes.push('<p class="clickable_item_data" onclick="add_to_field(' + id + ',\'' + name + '\',\'' + slot + '\')">' + content + '</p>');
+      nodes.push('<p class="clickable_item_data" onclick="add_to_field(' + id + ',\'' + addslashes(name) + '\',\'' + slot + '\')">' + content + '</p>');
     });
     div.html(nodes.join("\n"))
     div.show();
