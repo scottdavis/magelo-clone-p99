@@ -16,4 +16,8 @@
       - if user_signed_in?
         %p= link_to 'My characters', profiles_path
         %p= link_to 'Create a new character', new_profile_path
+        %p= link_to 'Logout', destroy_user_session_path
         = #link_to 'Account', user_path(current_user)
+      - else
+        %p= link_to('Create an Account', user_registration_path)
+        %p= link_to('Sign in', new_user_session_path)
