@@ -477,7 +477,7 @@ def get_acmod(level, agility)
 end
 
 def get_ac(acmod, defense, klass, item_ac, level, race)
-  avoidance = (acmod + (defense * 16/9))
+  avoidance = (acmod + ((defense * 16)/9))
   avoidance = 0 if avoidance < 0
   
   mitigation  = 0
