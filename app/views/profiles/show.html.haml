@@ -1,7 +1,7 @@
 - content_for :head do
   = javascript_include_tag 'character'
 - content_for :nav do
-  - if user_signed_in?
+  - if user_signed_in? && current_user.id == @character.user_id
     %p= link_to('Edit this character', edit_profile_path(@character.id))
     %p= link_to('Update this characters items', profile_slot_path(@character.id))
 #character
