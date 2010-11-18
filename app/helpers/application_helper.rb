@@ -19,10 +19,10 @@ module ApplicationHelper
     classes = item.classes
     return 'CLASS: ALL' if classes == (32767+32768)
     return 'CLASS: NONE' if classes == 0
-    return 'CLASS: BRD ROG' if classes == 384
+    #return 'CLASS: BRD ROG' if classes == 384
     map = {  
       :war => 1, :clr => 2, :pal => 4, :rng => 8, :shd => 16, :dru => 32, :mnk => 64, :brd => 128,
-      :rog => 256, :shm => 512, :nec => 1024, :wiz => 2048, :mag => 4069, :enc => 192
+      :rog => 256, :shm => 512, :nec => 1024, :wiz => 2048, :mag => 4096, :enc => 8192
     }
 
     "CLASS: #{do_map(classes, map)}"
