@@ -87,7 +87,7 @@ module ApplicationHelper
     out = []
     out << "Skill: #{type}" unless type.blank?
     out << "DMG: #{item.damage}" unless item.damage.blank?
-    out << "Delay: #{item.delay}" unless item.deplay.blank?
+    out << "Delay: #{item.delay}" unless item.delay.blank?
     out << "Ratio: #{ratio.round}" unless ratio.blank?
     out.join(' ')
   end
