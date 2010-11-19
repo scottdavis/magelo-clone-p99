@@ -26,6 +26,7 @@ class Character < ActiveRecord::Base
   def stats_above_10?
     (STATS + RESISTS).each do |stat|
       val = send(stat)
+      next if val.blank?
       if val < 4
         errors.add(stat, "#{stat} must have a value greater then 10")
       end

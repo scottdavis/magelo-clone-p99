@@ -84,7 +84,12 @@ module ApplicationHelper
     return '' if item.damage == 0 && item.delay == 0
     ratio = item.damage.to_f/item.delay.to_f unless item.delay == 0
     type = WEAPON_TYPE[item.itemtype]
-    return "Skill: #{type} DMG: #{item.damage} Delay: #{item.delay} Ratio: #{ratio.round(1)}"
+    out = []
+    out << "Skill: #{type}" unless type.blank?
+    out << "DMG: #{item.damage}" unless item.damage.blank?
+    out << "Delay: #{item.delay}" unless item.deplay.blank?
+    out << "Ratio: #{ratio.round}" unless ratio.blank?
+    out.join(' ')
   end
   
   def get_details(item)
