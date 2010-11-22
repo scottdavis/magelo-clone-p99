@@ -16,11 +16,8 @@
           = f.text_field stat
       - [:hp, :mana, :pr, :mr, :dr, :fr, :cr].each do |stat|
         %p
-          = f.label stat.to_s.gsub(/^a/, '')
+          = f.label stat
           greater than
           = f.text_field stat
-      
-      
-      
     %p
       = f.submit :search

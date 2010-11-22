@@ -8,8 +8,8 @@ class ItemsController < ApplicationController
         render :json => @items.to_json(:only => [:name, :magic, :id])
       end
       format.html do
-        expires_in 5.minutes, :public => true if Rails.env == 'production'
         return unless params[:item_search]
+        expires_in 5.minutes, :public => true if Rails.env == 'production'
         @items = ItemSearch.new(params[:item_search]).items(params[:page])
         render :action => :index
       end
