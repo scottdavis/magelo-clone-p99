@@ -8,7 +8,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Magelo
   class Application < Rails::Application
-    config.middleware.use Rack::Cache,:metastore=>"file:#{Rails.root.join('cache', 'rack', 'meta')}",:entitystore=>"file:#{Rails.root.join('cache', 'rack', 'body')}",:verbose=>true
+    #config.middleware.use Rack::Cache,:metastore=>"file:#{Rails.root.join('cache', 'rack', 'meta')}",:entitystore=>"file:#{Rails.root.join('cache', 'rack', 'body')}",:verbose=>true
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
