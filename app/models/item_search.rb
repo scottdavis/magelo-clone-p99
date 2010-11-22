@@ -7,7 +7,6 @@ class ItemSearch
   def initialize(params = {})
     limit = 30
     params.each do |k,v|
-      puts "#{k}:#{v}"
       send("#{k}=", v)
     end
   end
