@@ -1,0 +1,26 @@
+.form
+  = form_for(:item_search, :url => items_search_path, :html => {:method => :get}) do |f|
+    %p
+      = f.label :name
+      = f.text_field :name
+    %p
+      = f.label :classes
+      = f.select :classes, ApplicationHelper::CLASSES.merge(:all => (32767+32768)).map {|k,v| [k.to_s.upcase ,v]}
+    %h3 Stats
+    %hr
+    .stats
+      - [:astr, :asta, :aagi, :adex, :awis, :aint, :acha].each do |stat|
+        %p
+          = f.label stat.to_s.gsub(/^a/, '')
+          greater than
+          = f.text_field stat
+      - [:hp, :mana, :pr, :mr, :dr, :fr, :cr].each do |stat|
+        %p
+          = f.label stat.to_s.gsub(/^a/, '')
+          greater than
+          = f.text_field stat
+      
+      
+      
+    %p
+      = f.submit :search

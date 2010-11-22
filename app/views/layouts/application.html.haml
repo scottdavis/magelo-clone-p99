@@ -1,40 +1,33 @@
 !!!
 %html
   %head
-    %title Project 1999 Profiles
+    %title
+      Project 1999 Database
+      
+      = @page_title unless @page_title.blank?
     = stylesheet_link_tag 'compiled/screen.css'
     = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"
     = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"
+    = javascript_include_tag 'rails'
     = javascript_include_tag :defaults
     = csrf_meta_tag
     = yield :head
+    - if Rails.env == 'development'
+      :javascript
+        var disqus_developer = 1;
   %body{:class => controller_name}
     #wrapper{:class => action_name}
+      #header
+        .logo
+          = link_to image_tag('logo.png'), root_path
+        #nav
+          = yield :nav
+          %p= link_to('Item Search', items_search_path)
+          = render :partial => 'layouts/profile_nav'
+      %br.clear
+      = flashes
+      %h1= @page_title unless @page_title.blank?
       = yield
-    #nav
-      = yield :nav
-      - if user_signed_in?
-        %p= link_to 'My characters', profiles_path
-        %p= link_to 'Create a new character', new_profile_path
-        %p= link_to 'Logout', destroy_user_session_path
-        = #link_to 'Account', user_path(current_user)
-      - else
-        %p= link_to('Create an Account', new_user_registration_path)
-        %p= link_to('Sign in', new_user_session_path)
-    :javascript
-      google_ad_client = "ca-pub-0085223469947170";
-      google_ad_slot = "0081855298";
-      google_ad_width = 728;
-      google_ad_height = 90;
-    = '<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">'.html_safe
-    :javascript
-      var _gaq = _gaq || [];
-       _gaq.push(['_setAccount', 'UA-19773125-1']);
-       _gaq.push(['_trackPageview']);
-
-       (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
+      .google
+        = render :template => 'layouts/_google.html.erb'    
        

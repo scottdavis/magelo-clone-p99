@@ -1,6 +1,6 @@
 class Item < ActiveRecord::Base
-  
-  [:str, :sta, :agi, :dex, :wis, :int, :cha].each do |stat|
+  STATS = [:str, :sta, :agi, :dex, :wis, :int, :cha]
+  STATS.each do |stat|
     class_eval <<-EOS
       def #{stat}
         a#{stat}

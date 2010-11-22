@@ -1,2 +1,20 @@
-- puts @item.name
-= render :partial => 'profiles/item', :locals => {:item => @item}
+.container
+  %p.not_classic
+    = link_to('Not classic? Report this item!', report_non_classic_path(@item.id))
+  = render :partial => 'profiles/item', :locals => {:item => @item}
+  %p
+    = link_to('Allakazam link', "http://everquest.allakhazam.com/db/item.html?item=#{@item.alla_id}", :target => '_blank')
+  %br.clear
+
+#disqus_thread
+  %a{:href => "http://disqus.com", :class => "dsq-brlink"}
+    comments powered by <span class="logo-disqus">Disqus</span>
+:javascript
+  var disqus_identifier = 'p99_item_#{@item.id}';
+
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://project1999itemdatabase.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+

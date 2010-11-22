@@ -52,7 +52,10 @@ class Character < ActiveRecord::Base
   end
   
   def total_hp
-    (calc_base_hp(level, eq_class.name, sta) + item_hp)
+    nd = 10000
+    max_hp = (calc_base_hp(level, eq_class.name, sta) + item_hp)
+    max_hp = (max_hp * nd) / 10000
+    return max_hp
   end
   
   def total_mana

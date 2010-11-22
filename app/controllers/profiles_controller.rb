@@ -35,6 +35,7 @@ class ProfilesController < ApplicationController
   
   def show
     @character = Character.with_slots.find(params[:id])
+    render :action => :show, :layout => 'profile'
   end
   
   def new

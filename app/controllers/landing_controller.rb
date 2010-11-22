@@ -1,7 +1,7 @@
 class LandingController < ApplicationController
   
   def index
-    @characters = Character.limit('30').order('updated_at DESC')
+    
   end
 
   def search

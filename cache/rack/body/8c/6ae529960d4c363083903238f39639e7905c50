@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290384787" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <form accept-charset="UTF-8" action="/items/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <p>
+          <label for="item_search_name">Name</label>
+          <input id="item_search_name" name="item_search[name]" size="30" type="text" />
+        </p>
+        <p>
+          <label for="item_search_classes">Classes</label>
+          <select id="item_search_classes" name="item_search[classes]"><option value="1">WAR</option>
+          <option value="2048">WIZ</option>
+          <option value="64">MNK</option>
+          <option value="2">CLR</option>
+          <option value="4096">MAG</option>
+          <option value="128">BRD</option>
+          <option value="4">PAL</option>
+          <option value="256">ROG</option>
+          <option value="8">RNG</option>
+          <option value="512">SHM</option>
+          <option value="16">SHD</option>
+          <option value="1024">NEC</option>
+          <option value="8192">ENC</option>
+          <option value="65535">ALL</option>
+          <option value="32">DRU</option></select>
+        </p>
+        <p>
+          <input id="item_search_submit" name="commit" type="submit" value="search" />
+        </p>
+      </form>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>

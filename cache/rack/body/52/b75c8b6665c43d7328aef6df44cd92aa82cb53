@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290384787" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div class='item' name='Ethereal Mist Helm'>
+        <div class='name'>
+          Ethereal Mist Helm
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Helm" class="icon" src="/images/icons/746.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: HEAD
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          16
+        </div>
+        <div class='stats'>
+          STR: +5 WIS: +5 SV DISEASE: +13
+        </div>
+        <div class='mid'>
+          WT:
+          4.5
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Chestplate'>
+        <div class='name'>
+          Ethereal Mist Chestplate
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Chestplate" class="icon" src="/images/icons/624.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: CHEST
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          28
+        </div>
+        <div class='stats'>
+          STA: +15 WIS: +15 HP: +25 MANA: +25
+        </div>
+        <div class='mid'>
+          WT:
+          7.5
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Vambraces'>
+        <div class='name'>
+          Ethereal Mist Vambraces
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Vambraces" class="icon" src="/images/icons/622.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: ARMS
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          15
+        </div>
+        <div class='stats'>
+          STR: +9 SV MAGIC: +7
+        </div>
+        <div class='mid'>
+          WT:
+          4.9
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Bracers'>
+        <div class='name'>
+          Ethereal Mist Bracers
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Bracers" class="icon" src="/images/icons/516.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: WRIST
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          9
+        </div>
+        <div class='stats'>
+          DEX: +9 CHA: +9 MANA: +20
+        </div>
+        <div class='mid'>
+          WT:
+          3.0
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Gauntlets'>
+        <div class='name'>
+          Ethereal Mist Gauntlets
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: HANDS
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          12
+        </div>
+        <div class='stats'>
+          DEX: +5 INT: +5 SV FIRE: +7
+        </div>
+        <div class='mid'>
+          WT:
+          3.8
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Greaves'>
+        <div class='name'>
+          Ethereal Mist Greaves
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Greaves" class="icon" src="/images/icons/540.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: LEGS
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          15
+        </div>
+        <div class='stats'>
+          STR: +5 AGI: +5 WIS: +9 SV POISON: +7
+        </div>
+        <div class='mid'>
+          WT:
+          5.6
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Mist Boots'>
+        <div class='name'>
+          Ethereal Mist Boots
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Mist Boots" class="icon" src="/images/icons/524.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: FEET
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          15
+        </div>
+        <div class='stats'>
+          AGI: +5 INT: +5 SV COLD: +7
+        </div>
+        <div class='mid'>
+          WT:
+          4.9
+          Size: MEDIUM
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: HIE HFL DEF GNM HUM IKS DWF ERU
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Spell: Ethereal Light'>
+        <div class='name'>
+          Spell: Ethereal Light
+        </div>
+        <div class='icon'>
+          <img alt="Spell: Ethereal Light" class="icon" src="/images/icons/504.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.1
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Spell: Ethereal Elixir'>
+        <div class='name'>
+          Spell: Ethereal Elixir
+        </div>
+        <div class='icon'>
+          <img alt="Spell: Ethereal Elixir" class="icon" src="/images/icons/504.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.1
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Spell: Ethereal Remedy'>
+        <div class='name'>
+          Spell: Ethereal Remedy
+        </div>
+        <div class='icon'>
+          <img alt="Spell: Ethereal Remedy" class="icon" src="/images/icons/504.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.1
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Silk Sleeves'>
+        <div class='name'>
+          Ethereal Silk Sleeves
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Silk Sleeves" class="icon" src="/images/icons/670.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: ARMS
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          16
+        </div>
+        <div class='stats'>
+          STR: +8 STA: +8 AGI: +8 DEX: +8 WIS: +8 INT: +8 CHA: +8 SV MAGIC: +15 SV DISEASE: +4 SV FIRE: +4 SV COLD: +4
+        </div>
+        <div class='mid'>
+          WT:
+          1.6
+          Size: TINY
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Drakeen Brain'>
+        <div class='name'>
+          Ethereal Drakeen Brain
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Drakeen Brain" class="icon" src="/images/icons/1204.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          1.0
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: CLR SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Black Dragon Heart'>
+        <div class='name'>
+          Ethereal Black Dragon Heart
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Black Dragon Heart" class="icon" src="/images/icons/1003.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.2
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Gold Dragon Heart'>
+        <div class='name'>
+          Ethereal Gold Dragon Heart
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Gold Dragon Heart" class="icon" src="/images/icons/1003.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.2
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Storm Dragon Heart'>
+        <div class='name'>
+          Ethereal Storm Dragon Heart
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Storm Dragon Heart" class="icon" src="/images/icons/1003.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.2
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Silver Dragon Heart'>
+        <div class='name'>
+          Ethereal Silver Dragon Heart
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Silver Dragon Heart" class="icon" src="/images/icons/1003.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.2
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: CLR SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Warhammer of Ethereal Energy'>
+        <div class='name'>
+          Warhammer of Ethereal Energy
+        </div>
+        <div class='icon'>
+          <img alt="Warhammer of Ethereal Energy" class="icon" src="/images/icons/567.gif?1210044561" />
+        </div>
+        <div class='top'>
+          MAGIC LORE
+        </div>
+        <div class='slot'>
+          SLOT: PRIMARY
+        </div>
+        <div class='skill'>
+          Skill: 2H Blunt DMG: 18 Delay: 38 Ratio: 0
+        </div>
+        <div class='ac'>
+          AC:
+          10
+        </div>
+        <div class='stats'>
+          STR: -5 STA: -5 WIS: +12 SV MAGIC: +10
+        </div>
+        <div class='mid'>
+          WT:
+          4.0
+          Size: LARGE
+        </div>
+        <div class='class'>
+          CLASS: MNK CLR PAL SHM DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Words of the Ethereal'>
+        <div class='name'>
+          Words of the Ethereal
+        </div>
+        <div class='icon'>
+          <img alt="Words of the Ethereal" class="icon" src="/images/icons/869.gif?1210044562" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.1
+          Size: TINY
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Tethered Air Cape'>
+        <div class='name'>
+          Tethered Air Cape
+        </div>
+        <div class='icon'>
+          <img alt="Tethered Air Cape" class="icon" src="/images/icons/839.gif?1210044562" />
+        </div>
+        <div class='top'>
+          MAGIC LORE NO TRADE
+        </div>
+        <div class='slot'>
+          SLOT: BACK
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='ac'>
+          AC:
+          14
+        </div>
+        <div class='stats'>
+          STA: +10 AGI: +25 WIS: +15 INT: +15 HP: +130 MANA: +130 SV MAGIC: +20 SV COLD: +20
+        </div>
+        <div class='mid'>
+          WT:
+          1.0
+          Size: MEDIUM
+        </div>
+        <div class='class'>
+          CLASS: WIZ MAG CLR SHM ENC NEC DRU
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Brick of Ethereal Energy'>
+        <div class='name'>
+          Brick of Ethereal Energy
+        </div>
+        <div class='icon'>
+          <img alt="Brick of Ethereal Energy" class="icon" src="/images/icons/1138.gif?1210044562" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          10.0
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Sheet of Metal'>
+        <div class='name'>
+          Ethereal Sheet of Metal
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Sheet of Metal" class="icon" src="/images/icons/1036.gif?1210044561" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          5.0
+          Size: MEDIUM
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Metal Rings'>
+        <div class='name'>
+          Ethereal Metal Rings
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Metal Rings" class="icon" src="/images/icons/1008.gif?1210044562" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          2.5
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Silk Swatch'>
+        <div class='name'>
+          Ethereal Silk Swatch
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Silk Swatch" class="icon" src="/images/icons/823.gif?1210044562" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          2.5
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Cured Ethereal Energy'>
+        <div class='name'>
+          Cured Ethereal Energy
+        </div>
+        <div class='icon'>
+          <img alt="Cured Ethereal Energy" class="icon" src="/images/icons/835.gif?1210044562" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          5.0
+          Size: SMALL
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class='item' name='Ethereal Temper'>
+        <div class='name'>
+          Ethereal Temper
+        </div>
+        <div class='icon'>
+          <img alt="Ethereal Temper" class="icon" src="/images/icons/695.gif?1210044561" />
+        </div>
+        <div class='top'>
+          
+        </div>
+        <div class='slot'>
+          SLOT:
+        </div>
+        <div class='skill'>
+          
+        </div>
+        <div class='stats'>
+          
+        </div>
+        <div class='mid'>
+          WT:
+          0.1
+          Size: TINY
+        </div>
+        <div class='class'>
+          CLASS: ALL
+        </div>
+        <div class='race'>
+          RACE: ALL
+        </div>
+        <br class='clear'>
+      </div>
+      <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Ethere&amp;page=2&amp;utf8=%E2%9C%93" rel="next">2</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Ethere&amp;page=2&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>

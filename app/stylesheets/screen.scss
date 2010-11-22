@@ -8,11 +8,67 @@
 @import "compass/css3";
 
 $blue:#124a7e;
+$gray:#3d3a3a;
+$gold:#b77e2b;
 body {
   p{
-    color:white;
+    color:black;
     padding:5px;
   }
+  .google {
+    text-align:center;
+    padding-top:120px;
+  }
+  .pagination {
+    background-color:#eee;
+    text-align: center;
+    padding: .3em; }
+    .pagination a, .pagination span {
+      padding: .2em .5em; }
+    .pagination span.disabled {
+      color: $gold; }
+    .pagination span.current {
+      font-weight: bold;
+      color: black; }
+    .pagination a {
+      color: black;
+      text-decoration: none; }
+      .pagination a:hover, .pagination a:focus {
+        border-color: $blue;
+        background: white;
+        color: $blue; }
+    .pagination .page_info {
+      color: #aaa;
+      padding-top: .8em; }
+    .pagination .prev_page, .pagination .next_page {
+      border-width: 2px; }
+    .pagination .prev_page {
+      margin-right: 1em; }
+    .pagination .next_page {
+      margin-left: 1em; }
+}
+
+#wrapper {
+  width:1024px;
+  margin:{
+    left:auto;
+    right:auto;
+  };
+}
+
+#header {
+  #nav,.logo {
+    @include float-left;
+  }
+  #nav p {
+    @include float-left;
+  }
+}
+
+
+
+#header, #wrapper {
+  background-color:$blue;
 }
 
 a {
@@ -34,15 +90,18 @@ a:visited {
   }
 }
 
-#wrapper {
-  background-color:$blue;
-  min-height:500px;
-}
-
 h1 {
   color:white;
   padding:15px;
   font-size:30px;
+  text-align:center;
+}
+
+h2 {
+  color:white;
+  padding:15px;
+  font-size:25px;
+  text-align:center; 
 }
 
 
@@ -101,19 +160,25 @@ div.field_with_errors {
 }
 
 form {
-  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  width:700px;
+  @include border-radius(5px);
+  color:black;
   h2{
     font-size: 24px;
     padding:5px;
     padding-bottom:10px;
   }
   label {
+    color:black;
     font-size:20px;
   }
   p{
     padding:5px;
   }
-  background-color:$blue;
+  background-color:#eee;
 }
 
 .sessions, .registrations {
@@ -137,7 +202,7 @@ form {
 
 
 body {
-  background-color:#3d3a3a;
+  background-color:$gray;
 }
 
 .profiles {
@@ -162,6 +227,13 @@ body {
     }
   }
   .show {
+    .item { 
+      left:433px;
+      padding:5px;
+      position:absolute;
+      top:336px;
+      height:135px;
+    }
     width:850px;
     height:600px;
     background-image:image_url('profile_template.png');
@@ -178,6 +250,7 @@ body {
       }
     }
     #character {
+      position :relative;
       #bag_area {
         height:240px;
         left:428px;
@@ -230,11 +303,7 @@ body {
 .item {
   font-size:15px;
   color:white;
-  height:135px;
-  left:433px;
   padding:5px;
-  position:absolute;
-  top:336px;
   width:384px;
   .name {
     font-weight:bold;
@@ -253,5 +322,97 @@ body {
   display:none;
 }
 
+#disqus_thread {
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#eee;
+  @include border-radius(5px);
+  padding:10px;
+  a{
+    color:black;
+  }
+}
 
 
+.container {
+  p {
+    a {
+      color:black;
+    }
+  }
+  ul {
+    padding-left:20px;
+    li {
+      list-style-type: circle;
+    }
+  }
+  margin:{
+    left:auto;
+    right:auto;
+  };
+  margin-bottom:10px;
+  p {
+    color:black;
+  }
+  padding:10px;
+  width:700px;
+  @include border-radius(5px);
+  background-color:#eee;
+}
+
+.items {
+  .show {
+    .not_classic {
+      @include float-right;
+    }
+    .item {
+      background-color:$gray;
+      @include border-radius(5px);
+      pagging:10px;
+    }
+  }
+  .search {
+    #item {
+      padding:10px;
+      margin-right:30px;
+      background-color:$gray;
+      @include float-right;
+      @include border-radius(5px);
+    }
+    .items {
+      table {
+        margin: {
+         top:10px;
+         bottom:10px; 
+        }
+        th {
+          color:black;
+          font-size:18px;
+        }
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        td {
+          padding:5px;
+        }
+        tr {
+          a{
+            color:black;
+          }
+        }
+        tr.alt{
+          a {
+            color:$blue;
+          }
+          background-color:#DDD;
+        }
+      }
+      margin-left:90px;
+      @include float-left;
+      width:500px;
+      background-color:#eee;
+      @include border-radius(5px);
+    }
+  }
+}

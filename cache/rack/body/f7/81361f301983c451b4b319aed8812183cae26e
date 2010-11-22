@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290406330" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(function() {
+            var offset = $("#item").offset();
+            var topPadding = 0;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#item").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#item").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+        $(document).ready(function(){
+          $('.title').mouseover(function(){
+            var html = $(this).html();
+            html += $($(this).next()).html();
+            $('#item').html(html);
+          })
+        });
+      //]]>
+    </script>
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div id='header'>
+        <div class='logo'>
+          <img alt="Logo" src="/images/logo.png?1290406654" />
+        </div>
+        <div id='nav'>
+          
+          <p><a href="/items/search">Item Search</a></p>
+          <p><a href="/profiles">My characters</a></p>
+          <p><a href="/profiles/new">Create a new character</a></p>
+          <p><a href="/users/sign_out">Logout</a></p>
+        </div>
+      </div>
+      <br class='clear'>
+      <div class='item' id='item'></div>
+      <div class='items'>
+        <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=2&amp;utf8=%E2%9C%93" rel="next">2</a> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=3&amp;utf8=%E2%9C%93">3</a> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=2&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+        <div class='item' name='Cloth Cap'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1001">Cloth Cap</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Cap" class="icon" src="/images/icons/639.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Veil'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1002">Cloth Veil</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Veil" class="icon" src="/images/icons/677.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: FACE
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Choker'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1003">Cloth Choker</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Choker" class="icon" src="/images/icons/500.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Shirt'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1004">Cloth Shirt</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Shirt" class="icon" src="/images/icons/678.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: CHEST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              4
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.8
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Shawl'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1005">Cloth Shawl</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Shawl" class="icon" src="/images/icons/665.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: SHOULDERS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Cape'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1006">Cloth Cape</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Cape" class="icon" src="/images/icons/656.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: BACK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Cord'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1007">Cloth Cord</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Cord" class="icon" src="/images/icons/572.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WAIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Sleeves'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1008">Cloth Sleeves</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Sleeves" class="icon" src="/images/icons/670.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: ARMS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Wristband'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1009">Cloth Wristband</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Wristband" class="icon" src="/images/icons/638.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Gloves'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1010">Cloth Gloves</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Gloves" class="icon" src="/images/icons/517.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Pants'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1011">Cloth Pants</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Pants" class="icon" src="/images/icons/631.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: LEGS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.7
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloth Sandals'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1012">Cloth Sandals</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloth Sandals" class="icon" src="/images/icons/666.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: FEET
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF OGR HIE DEF HUM HEF IKS BAR ERU TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Cap'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1013">Small Cloth Cap</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Cap" class="icon" src="/images/icons/639.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Veil'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1014">Small Cloth Veil</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Veil" class="icon" src="/images/icons/677.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: FACE
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Choker'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1015">Small Cloth Choker</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Choker" class="icon" src="/images/icons/500.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Shirt'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1016">Small Cloth Shirt</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Shirt" class="icon" src="/images/icons/678.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: CHEST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              4
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.8
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Shawl'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1017">Small Cloth Shawl</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Shawl" class="icon" src="/images/icons/665.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: SHOULDERS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Cape'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1018">Small Cloth Cape</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Cape" class="icon" src="/images/icons/656.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: BACK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Cord'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1019">Small Cloth Cord</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Cord" class="icon" src="/images/icons/572.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WAIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Sleeves'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1020">Small Cloth Sleeves</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Sleeves" class="icon" src="/images/icons/670.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: ARMS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Wristband'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1021">Small Cloth Wristband</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Wristband" class="icon" src="/images/icons/638.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Gloves'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1022">Small Cloth Gloves</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Gloves" class="icon" src="/images/icons/517.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Pants'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1023">Small Cloth Pants</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Pants" class="icon" src="/images/icons/631.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: LEGS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Cloth Sandals'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1024">Small Cloth Sandals</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Cloth Sandals" class="icon" src="/images/icons/666.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: FEET
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM HEF IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Large Cloth Cap'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/1025">Large Cloth Cap</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Large Cloth Cap" class="icon" src="/images/icons/639.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: OGR IKS BAR TRL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=2&amp;utf8=%E2%9C%93" rel="next">2</a> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=3&amp;utf8=%E2%9C%93">3</a> <a href="/items/search?commit=search&amp;item_search[classes]=64&amp;item_search[name]=Cloth&amp;page=2&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+      <br class='clear'>
+      <div class='google'>
+        <script type='text/javascript'>
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        
+        <script type='text/javascript'>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19773125-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

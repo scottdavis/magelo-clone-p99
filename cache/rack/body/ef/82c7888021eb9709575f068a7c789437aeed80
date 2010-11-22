@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290392857" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(function() {
+            var offset = $("#item").offset();
+            var topPadding = 0;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#item").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#item").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+        $(document).ready(function(){
+          $('.title').mouseover(function(){
+            var html = $(this).html();
+            html += $($(this).next()).html();
+            $('#item').html(html);
+          })
+        });
+      //]]>
+    </script>
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div class='item' id='item'></div>
+      <div class='items'>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=67&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93">2</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=64&amp;utf8=%E2%9C%93">64</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=65&amp;utf8=%E2%9C%93">65</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=66&amp;utf8=%E2%9C%93">66</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=67&amp;utf8=%E2%9C%93" rel="prev">67</a> <span class="current">68</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=69&amp;utf8=%E2%9C%93" rel="next">69</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=70&amp;utf8=%E2%9C%93">70</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=71&amp;utf8=%E2%9C%93">71</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=72&amp;utf8=%E2%9C%93">72</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=69&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+        <div class='item' name='Small Gothic Ringmail Gorget'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65892">Small Gothic Ringmail Gorget</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Gothic Ringmail Gorget" class="icon" src="/images/icons/627.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              STR: +2 STA: +2 SV MAGIC: +6
+            </div>
+            <div class='mid'>
+              WT:
+              1.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Gothic Ringmail Bracelet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65902">Gothic Ringmail Bracelet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Gothic Ringmail Bracelet" class="icon" src="/images/icons/620.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              9
+            </div>
+            <div class='stats'>
+              STR: +2 STA: +2 SV MAGIC: +6
+            </div>
+            <div class='mid'>
+              WT:
+              2.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Gothic Ringmail Gorget'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65904">Gothic Ringmail Gorget</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Gothic Ringmail Gorget" class="icon" src="/images/icons/627.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              STR: +2 STA: +2 SV MAGIC: +6
+            </div>
+            <div class='mid'>
+              WT:
+              1.6
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Deep Cavern Steel Helmet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65934">Small Deep Cavern Steel Helmet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Deep Cavern Steel Helmet" class="icon" src="/images/icons/550.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              15
+            </div>
+            <div class='stats'>
+              DEX: +4 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              2.6
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Deep Cavern Steel Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65936">Small Deep Cavern Steel Gauntlets</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Deep Cavern Steel Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              13
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              2.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Deep Cavern Steel Helmet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65946">Deep Cavern Steel Helmet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Deep Cavern Steel Helmet" class="icon" src="/images/icons/550.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              15
+            </div>
+            <div class='stats'>
+              DEX: +4 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              3.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Deep Cavern Steel Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65948">Deep Cavern Steel Gauntlets</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Deep Cavern Steel Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              13
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Deep Cavern Bracelet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65962">Small Deep Cavern Bracelet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Deep Cavern Bracelet" class="icon" src="/images/icons/620.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              9
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              1.8
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Small Deep Cavern Ringmail Gorget'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65964">Small Deep Cavern Ringmail Gorget</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Small Deep Cavern Ringmail Gorget" class="icon" src="/images/icons/627.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              1.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HFL DEF GNM IKS DWF
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Deep Cavern Ringmail Bracelet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65974">Deep Cavern Ringmail Bracelet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Deep Cavern Ringmail Bracelet" class="icon" src="/images/icons/620.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              9
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              2.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Deep Cavern Ringmail Gorget'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/65976">Deep Cavern Ringmail Gorget</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Deep Cavern Ringmail Gorget" class="icon" src="/images/icons/627.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              DEX: +3 SV POISON: +6
+            </div>
+            <div class='mid'>
+              WT:
+              1.6
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Sweet Bread'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/66608">Sweet Bread</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Sweet Bread" class="icon" src="/images/icons/914.gif?1210044562" />
+            </div>
+            <div class='top'>
+              NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              INT: +7 MANA: +10
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Vegetable Stew'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/66610">Vegetable Stew</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Vegetable Stew" class="icon" src="/images/icons/1016.gif?1210044562" />
+            </div>
+            <div class='top'>
+              NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              WIS: +5
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Vial of Ethereal Mist'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/66613">Vial of Ethereal Mist</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Vial of Ethereal Mist" class="icon" src="/images/icons/705.gif?1210044561" />
+            </div>
+            <div class='top'>
+              NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='effect'>
+              Effect: Harvest (Casting Time: 20.0)
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Gold Ticket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/66615">Gold Ticket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Gold Ticket" class="icon" src="/images/icons/867.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Magenta Trinket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67328">Magenta Trinket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Magenta Trinket" class="icon" src="/images/icons/753.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              WIS: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Magenta Amulet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67330">Magenta Amulet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Magenta Amulet" class="icon" src="/images/icons/753.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              WIS: +4
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Crimson Trinket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67333">Crimson Trinket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Crimson Trinket" class="icon" src="/images/icons/894.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              STR: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Crimson Amulet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67335">Crimson Amulet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Crimson Amulet" class="icon" src="/images/icons/894.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              STR: +4
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Rustic Trinket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67338">Rustic Trinket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Rustic Trinket" class="icon" src="/images/icons/754.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              STA: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Rustic Amulet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67340">Rustic Amulet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Rustic Amulet" class="icon" src="/images/icons/754.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              STA: +4
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Amber Trinket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67343">Amber Trinket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Amber Trinket" class="icon" src="/images/icons/893.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              AGI: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Amber Amulet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67345">Amber Amulet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Amber Amulet" class="icon" src="/images/icons/893.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              AGI: +4
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Azure Trinket'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67348">Azure Trinket</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Azure Trinket" class="icon" src="/images/icons/752.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              INT: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Azure Amulet'>
+          <div class='title'>
+            <div class='name'>
+              <a href="/item/67350">Azure Amulet</a>
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Azure Amulet" class="icon" src="/images/icons/752.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: CHARM
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              INT: +4
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=67&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93">2</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=64&amp;utf8=%E2%9C%93">64</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=65&amp;utf8=%E2%9C%93">65</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=66&amp;utf8=%E2%9C%93">66</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=67&amp;utf8=%E2%9C%93" rel="prev">67</a> <span class="current">68</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=69&amp;utf8=%E2%9C%93" rel="next">69</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=70&amp;utf8=%E2%9C%93">70</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=71&amp;utf8=%E2%9C%93">71</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=72&amp;utf8=%E2%9C%93">72</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=69&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+      <br class='clear'>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>

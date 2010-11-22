@@ -1,0 +1,38 @@
+- content_for(:head) do
+  :javascript
+    $(function() {
+        var offset = $("#item").offset();
+        var topPadding = 0;
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > offset.top) {
+                $("#item").stop().animate({
+                    marginTop: $(window).scrollTop() - offset.top + topPadding
+                });
+            } else {
+                $("#item").stop().animate({
+                    marginTop: 0
+                });
+            };
+        });
+    });
+    $(document).ready(function(){
+      $('tr.item').mouseover(function(){
+        var name = $(this).attr('name');
+        var html = $($('div[name="' + addslashes(name) + '"]')[0]).html();
+        $('#item').html(html);
+      })
+    });
+#item.item
+.items
+  = will_paginate(@items) 
+  = table_for(@items, :html => {:cellspacing => 0, :cellpadding => 0}) do |t|
+    = t.h('Item')
+    = t.body do |item|
+      = t.r(:class => cycle('item', 'item alt'), :id => "item_#{item.id}", :name => addslashes(item.name)) do
+        = t.d link_to item.name, item_path(item), :class => 'item_link'
+  = will_paginate(@items)
+  
+.hidden
+  - @items.each do |item|
+    = render :partial => 'profiles/item', :locals => {:item => item}
+%br.clear

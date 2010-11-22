@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290392712" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(document).ready(function(){
+          $('.title').mouseover(function(){
+            var html = $($(this).next()).html();
+            $('#item').html(html);
+          })
+        });
+      //]]>
+    </script>
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div id='item'></div>
+      <div class='items'>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=11&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93">2</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=8&amp;utf8=%E2%9C%93">8</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=9&amp;utf8=%E2%9C%93">9</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=10&amp;utf8=%E2%9C%93">10</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=11&amp;utf8=%E2%9C%93" rel="prev">11</a> <span class="current">12</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=13&amp;utf8=%E2%9C%93" rel="next">13</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=14&amp;utf8=%E2%9C%93">14</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=15&amp;utf8=%E2%9C%93">15</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=16&amp;utf8=%E2%9C%93">16</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=13&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+        <div class='item' name='Blackened Mithril Netting'>
+          <div class='title'>
+            <div class='name'>
+              Blackened Mithril Netting
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Blackened Mithril Netting" class="icon" src="/images/icons/1120.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Faceted Diamond'>
+          <div class='title'>
+            <div class='name'>
+              Faceted Diamond
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Faceted Diamond" class="icon" src="/images/icons/966.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Faceted Sapphire'>
+          <div class='title'>
+            <div class='name'>
+              Faceted Sapphire
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Faceted Sapphire" class="icon" src="/images/icons/963.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Faceted Emerald'>
+          <div class='title'>
+            <div class='name'>
+              Faceted Emerald
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Faceted Emerald" class="icon" src="/images/icons/958.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Etching Tools'>
+          <div class='title'>
+            <div class='name'>
+              Etching Tools
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Etching Tools" class="icon" src="/images/icons/716.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Spiked Velium Mallet'>
+          <div class='title'>
+            <div class='name'>
+              Spiked Velium Mallet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Spiked Velium Mallet" class="icon" src="/images/icons/903.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: SECONDARY PRIMARY
+            </div>
+            <div class='skill'>
+              Skill: 1H Blunt DMG: 10 Delay: 20 Ratio: 1
+            </div>
+            <div class='stats'>
+              STR: +5 STA: +5 DEX: +5 SV COLD: +10
+            </div>
+            <div class='mid'>
+              WT:
+              1.0
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: WAR MNK CLR BRD PAL RNG SHM SHD DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Ice Forged Helmet'>
+          <div class='title'>
+            <div class='name'>
+              Ice Forged Helmet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ice Forged Helmet" class="icon" src="/images/icons/747.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              18
+            </div>
+            <div class='effect'>
+              Effect: Velium Shards (Casting Time: instant)
+            </div>
+            <div class='stats'>
+              STR: +5 WIS: +5 INT: +5 HP: +20 MANA: +20 SV COLD: +10
+            </div>
+            <div class='mid'>
+              WT:
+              4.0
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL RNG SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Gem Inlaid Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Gem Inlaid Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Gem Inlaid Gauntlets" class="icon" src="/images/icons/526.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              STA: +3 DEX: +3
+            </div>
+            <div class='mid'>
+              WT:
+              1.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Engraved Royal Velium Helmet'>
+          <div class='title'>
+            <div class='name'>
+              Engraved Royal Velium Helmet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Engraved Royal Velium Helmet" class="icon" src="/images/icons/523.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              17
+            </div>
+            <div class='stats'>
+              STR: +2 SV DISEASE: +3 SV COLD: +3
+            </div>
+            <div class='mid'>
+              WT:
+              4.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Shiny Hunk of Metal'>
+          <div class='title'>
+            <div class='name'>
+              Shiny Hunk of Metal
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Shiny Hunk of Metal" class="icon" src="/images/icons/1092.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              2.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Engraved Royal Velium Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Engraved Royal Velium Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Engraved Royal Velium Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              15
+            </div>
+            <div class='stats'>
+              STA: +5 HP: +25 SV COLD: +5
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Enchanted Dew Woven Circlet'>
+          <div class='title'>
+            <div class='name'>
+              Enchanted Dew Woven Circlet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Enchanted Dew Woven Circlet" class="icon" src="/images/icons/1124.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              10
+            </div>
+            <div class='stats'>
+              HP: +20 MANA: +10 SV MAGIC: +10 SV FIRE: +10 SV COLD: +10
+            </div>
+            <div class='mid'>
+              WT:
+              0.0
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Meteorological Rocket'>
+          <div class='title'>
+            <div class='name'>
+              Meteorological Rocket
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Meteorological Rocket" class="icon" src="/images/icons/1025.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: AMMO
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='effect'>
+              Effect: Weather Rocket (Casting Time: 14.0)
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Shortnoble Platemail Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Shortnoble Platemail Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Shortnoble Platemail Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              AGI: +6
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: CLR
+            </div>
+            <div class='race'>
+              RACE: GNM IKS
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Saltpeter'>
+          <div class='title'>
+            <div class='name'>
+              Saltpeter
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Saltpeter" class="icon" src="/images/icons/1075.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: WIZ WAR MNK MAG CLR BRD PAL ROG RNG SHM SHD ENC NEC DRU
+            </div>
+            <div class='race'>
+              RACE: GNM IKS
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Perpetual Air Pump'>
+          <div class='title'>
+            <div class='name'>
+              Perpetual Air Pump
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Perpetual Air Pump" class="icon" src="/images/icons/1113.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WIZ WAR MNK MAG CLR BRD PAL ROG RNG SHM SHD ENC NEC DRU
+            </div>
+            <div class='race'>
+              RACE: GNM IKS
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Perpetual Steam Pump'>
+          <div class='title'>
+            <div class='name'>
+              Perpetual Steam Pump
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Perpetual Steam Pump" class="icon" src="/images/icons/1113.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WIZ WAR MNK MAG CLR BRD PAL ROG RNG SHM SHD ENC NEC DRU
+            </div>
+            <div class='race'>
+              RACE: GNM IKS
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name="Grandmaster Fletcher\'s Knife">
+          <div class='title'>
+            <div class='name'>
+              Grandmaster Fletcher's Knife
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Grandmaster Fletcher\'s Knife" class="icon" src="/images/icons/576.gif?1210044561" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: RANGE SECONDARY AMMO PRIMARY
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='effect'>
+              Effect: Grandmaster's Satchel (Casting Time: 12.0)
+            </div>
+            <div class='stats'>
+              DEX: +10 WIS: +10 INT: +10 CHA: +50
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Royal Velium Helmet'>
+          <div class='title'>
+            <div class='name'>
+              Royal Velium Helmet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Royal Velium Helmet" class="icon" src="/images/icons/523.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              12
+            </div>
+            <div class='stats'>
+              STR: +1 SV DISEASE: +1
+            </div>
+            <div class='mid'>
+              WT:
+              4.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Royal Velium Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Royal Velium Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Royal Velium Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              10
+            </div>
+            <div class='stats'>
+              STA: +2 HP: +10 SV COLD: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Imbued Royal Velium Helmet'>
+          <div class='title'>
+            <div class='name'>
+              Imbued Royal Velium Helmet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Imbued Royal Velium Helmet" class="icon" src="/images/icons/523.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              17
+            </div>
+            <div class='stats'>
+              STR: +2 SV DISEASE: +3 SV COLD: +3
+            </div>
+            <div class='mid'>
+              WT:
+              4.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Imbued Royal Velium Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Imbued Royal Velium Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Imbued Royal Velium Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              15
+            </div>
+            <div class='stats'>
+              STA: +5 HP: +25 SV COLD: +5
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Necklace of Eternal Visions'>
+          <div class='title'>
+            <div class='name'>
+              Necklace of Eternal Visions
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Necklace of Eternal Visions" class="icon" src="/images/icons/626.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              45
+            </div>
+            <div class='stats'>
+              STA: +20 DEX: +20 WIS: +18 INT: +18 CHA: +25 HP: +190 MANA: +180 SV POISON: +15 SV MAGIC: +15 SV DISEASE: +15 SV FIRE: +15 SV COLD: +15
+            </div>
+            <div class='mid'>
+              WT:
+              3.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Ethereal Drakeen Brain'>
+          <div class='title'>
+            <div class='name'>
+              Ethereal Drakeen Brain
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ethereal Drakeen Brain" class="icon" src="/images/icons/1204.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              1.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: CLR SHM DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Ethereal Black Dragon Heart'>
+          <div class='title'>
+            <div class='name'>
+              Ethereal Black Dragon Heart
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ethereal Black Dragon Heart" class="icon" src="/images/icons/1003.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: LARGE
+            </div>
+            <div class='class'>
+              CLASS: CLR SHM DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=11&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93">2</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=8&amp;utf8=%E2%9C%93">8</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=9&amp;utf8=%E2%9C%93">9</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=10&amp;utf8=%E2%9C%93">10</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=11&amp;utf8=%E2%9C%93" rel="prev">11</a> <span class="current">12</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=13&amp;utf8=%E2%9C%93" rel="next">13</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=14&amp;utf8=%E2%9C%93">14</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=15&amp;utf8=%E2%9C%93">15</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=16&amp;utf8=%E2%9C%93">16</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=13&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>

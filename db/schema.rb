@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101118045013) do
+ActiveRecord::Schema.define(:version => 20101122084351) do
 
   create_table "bag_slots", :force => true do |t|
     t.integer  "item_id"
@@ -256,12 +256,30 @@ ActiveRecord::Schema.define(:version => 20101118045013) do
     t.text     "serialization"
     t.string   "source",          :limit => 20, :default => "",  :null => false
     t.integer  "UNK033",                        :default => 0,   :null => false
+    t.integer  "alla_id",                       :default => 0
   end
 
+  add_index "items", ["aagi"], :name => "index_items_on_aagi"
+  add_index "items", ["acha"], :name => "index_items_on_acha"
+  add_index "items", ["adex"], :name => "index_items_on_adex"
+  add_index "items", ["aint"], :name => "index_items_on_aint"
+  add_index "items", ["asta"], :name => "index_items_on_asta"
+  add_index "items", ["astr"], :name => "index_items_on_astr"
+  add_index "items", ["awis"], :name => "index_items_on_awis"
+  add_index "items", ["classes"], :name => "index_items_on_classes"
+  add_index "items", ["cr"], :name => "index_items_on_cr"
+  add_index "items", ["dr"], :name => "index_items_on_dr"
+  add_index "items", ["fr"], :name => "index_items_on_fr"
+  add_index "items", ["hp"], :name => "index_items_on_hp"
   add_index "items", ["id"], :name => "ID", :unique => true
+  add_index "items", ["itemtype"], :name => "index_items_on_itemtype"
   add_index "items", ["lore"], :name => "lore_idx"
+  add_index "items", ["mana"], :name => "index_items_on_mana"
+  add_index "items", ["mr"], :name => "index_items_on_mr"
   add_index "items", ["name"], :name => "index_items_on_name"
   add_index "items", ["name"], :name => "name_idx"
+  add_index "items", ["pr"], :name => "index_items_on_pr"
+  add_index "items", ["races"], :name => "index_items_on_races"
 
   create_table "race_to_classes", :force => true do |t|
     t.integer  "eq_class_id"
@@ -272,6 +290,16 @@ ActiveRecord::Schema.define(:version => 20101118045013) do
 
   create_table "races", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "reports", :force => true do |t|
+    t.string   "problem_object_type"
+    t.string   "problem_id"
+    t.text     "description"
+    t.boolean  "fixed",               :default => false
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

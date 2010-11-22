@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290391233" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="PkaBqgJjymIq+ERQYnyB8PJ0enK2G0MeG5Ll+/V7+vM="/>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $('.title').mouseover(function(){
+          $($(this).next()).show();
+        });
+        $('.item').mouseout(function(){
+          $(this).children('.body').hide();
+        });
+      //]]>
+    </script>
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div class='items'>
+        <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93" rel="next">2</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=3&amp;utf8=%E2%9C%93">3</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=4&amp;utf8=%E2%9C%93">4</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=5&amp;utf8=%E2%9C%93">5</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=6&amp;utf8=%E2%9C%93">6</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=7&amp;utf8=%E2%9C%93">7</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=8&amp;utf8=%E2%9C%93">8</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=9&amp;utf8=%E2%9C%93">9</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+        <div class='item' name='Ruined Heretic Longsword'>
+          <div class='title'>
+            <div class='name'>
+              Ruined Heretic Longsword
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ruined Heretic Longsword" class="icon" src="/images/icons/590.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: SECONDARY PRIMARY
+            </div>
+            <div class='skill'>
+              Skill: 1H Slashing DMG: 2 Delay: 30 Ratio: 0
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: WIZ WAR MNK MAG CLR BRD PAL ROG RNG SHM SHD ENC NEC DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Mithril Studded Gorget'>
+          <div class='title'>
+            <div class='name'>
+              Mithril Studded Gorget
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Mithril Studded Gorget" class="icon" src="/images/icons/643.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              5
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG DRU
+            </div>
+            <div class='race'>
+              RACE: ELF HIE HEF IKS
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Mithril Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Mithril Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Mithril Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              25
+            </div>
+            <div class='stats'>
+              STR: +10 DEX: +15 HP: +75 SV COLD: +15
+            </div>
+            <div class='mid'>
+              WT:
+              3.7
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: TRL ELF OGR HIE HFL DEF GNM HUM HEF IKS BAR DWF ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Cap'>
+          <div class='title'>
+            <div class='name'>
+              Netted Cap
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Cap" class="icon" src="/images/icons/639.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Mask'>
+          <div class='title'>
+            <div class='name'>
+              Netted Mask
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Mask" class="icon" src="/images/icons/677.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: FACE
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Choker'>
+          <div class='title'>
+            <div class='name'>
+              Netted Choker
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Choker" class="icon" src="/images/icons/500.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Shirt'>
+          <div class='title'>
+            <div class='name'>
+              Netted Shirt
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Shirt" class="icon" src="/images/icons/678.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: CHEST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              4
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Mantle'>
+          <div class='title'>
+            <div class='name'>
+              Netted Mantle
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Mantle" class="icon" src="/images/icons/665.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: SHOULDERS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Cape'>
+          <div class='title'>
+            <div class='name'>
+              Netted Cape
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Cape" class="icon" src="/images/icons/656.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: BACK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Girth'>
+          <div class='title'>
+            <div class='name'>
+              Netted Girth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Girth" class="icon" src="/images/icons/572.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: WAIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Sleeves'>
+          <div class='title'>
+            <div class='name'>
+              Netted Sleeves
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Sleeves" class="icon" src="/images/icons/670.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: ARMS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Wristband'>
+          <div class='title'>
+            <div class='name'>
+              Netted Wristband
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Wristband" class="icon" src="/images/icons/638.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              1
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Gloves'>
+          <div class='title'>
+            <div class='name'>
+              Netted Gloves
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Gloves" class="icon" src="/images/icons/517.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              2
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Netted Pants'>
+          <div class='title'>
+            <div class='name'>
+              Netted Pants
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Netted Pants" class="icon" src="/images/icons/631.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: LEGS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Mesh Gorget'>
+          <div class='title'>
+            <div class='name'>
+              Mesh Gorget
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Mesh Gorget" class="icon" src="/images/icons/643.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR MNK CLR BRD PAL ROG RNG SHM SHD DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Mesh Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Mesh Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Mesh Gauntlets" class="icon" src="/images/icons/636.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              4
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.3
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR MNK CLR BRD PAL ROG RNG SHM SHD DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Woven Cord of Mistletoe'>
+          <div class='title'>
+            <div class='name'>
+              Woven Cord of Mistletoe
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Woven Cord of Mistletoe" class="icon" src="/images/icons/939.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE
+            </div>
+            <div class='slot'>
+              SLOT: WAIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              6
+            </div>
+            <div class='stats'>
+              WIS: +10 CHA: +15 SV POISON: +7 SV DISEASE: +7
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Ruined Scaled Bracelet'>
+          <div class='title'>
+            <div class='name'>
+              Ruined Scaled Bracelet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ruined Scaled Bracelet" class="icon" src="/images/icons/620.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              5
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              2.7
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS BAR ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Velvet Choker'>
+          <div class='title'>
+            <div class='name'>
+              Velvet Choker
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Velvet Choker" class="icon" src="/images/icons/643.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              HP: +5
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WIZ MAG CLR BRD SHM ENC NEC DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Soft Wicker Gorget'>
+          <div class='title'>
+            <div class='name'>
+              Soft Wicker Gorget
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Soft Wicker Gorget" class="icon" src="/images/icons/643.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: NECK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              3
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.8
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR MNK CLR BRD PAL ROG RNG SHM SHD DRU
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS BAR ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Bamboo Splint Bracelet'>
+          <div class='title'>
+            <div class='name'>
+              Bamboo Splint Bracelet
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Bamboo Splint Bracelet" class="icon" src="/images/icons/620.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: WRIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              5
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              2.7
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL ROG RNG SHM SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS BAR ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cold Iron Gauntlets'>
+          <div class='title'>
+            <div class='name'>
+              Cold Iron Gauntlets
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cold Iron Gauntlets" class="icon" src="/images/icons/531.gif?1210044561" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT: HANDS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              9
+            </div>
+            <div class='stats'>
+              SV MAGIC: +1
+            </div>
+            <div class='mid'>
+              WT:
+              6.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: WAR CLR BRD PAL SHD
+            </div>
+            <div class='race'>
+              RACE: ELF HIE DEF HUM HEF IKS BAR ERU
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cloak of Piety'>
+          <div class='title'>
+            <div class='name'>
+              Cloak of Piety
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cloak of Piety" class="icon" src="/images/icons/658.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: BACK
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              12
+            </div>
+            <div class='haste'>
+              HASTE:
+              34
+              %
+            </div>
+            <div class='stats'>
+              STR: +12 WIS: +12 INT: +12 SV MAGIC: +10 SV FIRE: +10
+            </div>
+            <div class='mid'>
+              WT:
+              1.5
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Meditative Blanket'>
+          <div class='title'>
+            <div class='name'>
+              Meditative Blanket
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Meditative Blanket" class="icon" src="/images/icons/798.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: SHOULDERS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              10
+            </div>
+            <div class='stats'>
+              STR: +2 AGI: +2 WIS: +3 INT: +3
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Idol of Petrified Koada`Dal Flesh'>
+          <div class='title'>
+            <div class='name'>
+              Idol of Petrified Koada`Dal Flesh
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Idol of Petrified Koada`Dal Flesh" class="icon" src="/images/icons/895.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93" rel="next">2</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=3&amp;utf8=%E2%9C%93">3</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=4&amp;utf8=%E2%9C%93">4</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=5&amp;utf8=%E2%9C%93">5</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=6&amp;utf8=%E2%9C%93">6</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=7&amp;utf8=%E2%9C%93">7</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=8&amp;utf8=%E2%9C%93">8</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=9&amp;utf8=%E2%9C%93">9</a> <span class="gap">&hellip;</span> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=76&amp;utf8=%E2%9C%93">76</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=77&amp;utf8=%E2%9C%93">77</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Et&amp;page=2&amp;utf8=%E2%9C%93" class="next_page" rel="next">Next &raquo;</a></div>
+      </div>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>

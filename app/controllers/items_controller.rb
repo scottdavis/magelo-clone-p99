@@ -1,8 +1,19 @@
 class ItemsController < ApplicationController
   
   def search
-    @items = Item.select('name, id, magic').limit('30').where(["Lower(name) LIKE ?", "%#{params[:name].downcase}%"])
-    render :json => @items.to_json(:only => [:name, :magic, :id])
+    @page_title = 'Search'
+    respond_to do |format|
+      format.json do
+        @items = Item.select('name, id, magic').limit('30').where(["Lower(name) LIKE ?", "%#{params[:name].downcase}%"])
+        render :json => @items.to_json(:only => [:name, :magic, :id])
+      end
+      format.html do
+        expires_in 5.minutes, :public => true if Rails.env == 'production'
+        return unless params[:item_search]
+        @items = ItemSearch.new(params[:item_search]).items(params[:page])
+        render :action => :index
+      end
+    end
   end
   
   
@@ -12,8 +23,14 @@ class ItemsController < ApplicationController
     else
       @item = Item.find(params[:id])
     end
-    render :action => :show, :layout => nil
+    if params[:raw]
+      render :partial => 'profiles/item', :locals => {:item => @item}
+    else
+      @page_title = "Details for #{@item.name}"
+      render :action => :show
+    end
   rescue
-    render :text => nil
+    redirect_to root_path
   end
+  
 end

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 1999 Profiles</title>
+    <link href="/stylesheets/compiled/screen.css?1290391233" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1290106687" type="text/javascript"></script>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="ou0eRxf7ESDbllint+vld7UmrD8QTQY1UCULTXUaORY="/>
+    
+  </head>
+  <body class='items'>
+    <div class='search' id='wrapper'>
+      <div class='items'>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=2&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=2&amp;utf8=%E2%9C%93" rel="prev">2</a> <span class="current">3</span> <span class="disabled next_page">Next &raquo;</span></div>
+        <div class='item' name='A Tattered Cloth'>
+          <div class='title'>
+            <div class='name'>
+              A Tattered Cloth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="A Tattered Cloth" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              1.0
+              Size: MEDIUM
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Yard of Rough Cloth'>
+          <div class='title'>
+            <div class='name'>
+              Yard of Rough Cloth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Yard of Rough Cloth" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Simple Cloth Cord of Sight'>
+          <div class='title'>
+            <div class='name'>
+              Simple Cloth Cord of Sight
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Simple Cloth Cord of Sight" class="icon" src="/images/icons/572.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: WAIST
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              8
+            </div>
+            <div class='stats'>
+              STA: +5 WIS: +3 INT: +3 HP: +30 MANA: +30 SV POISON: +3 SV MAGIC: +2 SV DISEASE: +2 SV FIRE: +2 SV COLD: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Coral Embedded Cloth Shawl'>
+          <div class='title'>
+            <div class='name'>
+              Coral Embedded Cloth Shawl
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Coral Embedded Cloth Shawl" class="icon" src="/images/icons/1118.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: SHOULDERS
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              15
+            </div>
+            <div class='stats'>
+              STR: +4 STA: +4 WIS: +9 HP: +20 MANA: +40 SV FIRE: +10 SV COLD: +10
+            </div>
+            <div class='mid'>
+              WT:
+              0.4
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: CLR SHM DRU
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Goblin Loincloth'>
+          <div class='title'>
+            <div class='name'>
+              Goblin Loincloth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Goblin Loincloth" class="icon" src="/images/icons/1119.gif?1210044562" />
+            </div>
+            <div class='top'>
+              
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.8
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Wash Cloth'>
+          <div class='title'>
+            <div class='name'>
+              Wash Cloth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Wash Cloth" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOTS: 1
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Ragged Cloth Bag'>
+          <div class='title'>
+            <div class='name'>
+              Ragged Cloth Bag
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Ragged Cloth Bag" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOTS: 3
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Wrapped Cloth Bag'>
+          <div class='title'>
+            <div class='name'>
+              Wrapped Cloth Bag
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Wrapped Cloth Bag" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.7
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Threadbare Cloth Bag'>
+          <div class='title'>
+            <div class='name'>
+              Threadbare Cloth Bag
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Threadbare Cloth Bag" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOTS: 6
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.5
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Closed Cloth Bag'>
+          <div class='title'>
+            <div class='name'>
+              Closed Cloth Bag
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Closed Cloth Bag" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.7
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Fabled Cloth Cap'>
+          <div class='title'>
+            <div class='name'>
+              Fabled Cloth Cap
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Fabled Cloth Cap" class="icon" src="/images/icons/639.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: HEAD
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              6
+            </div>
+            <div class='stats'>
+              STR: +2 DEX: +2 WIS: +2 INT: +2 SV FIRE: +2
+            </div>
+            <div class='mid'>
+              WT:
+              0.2
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Scrap of Dark Cloth'>
+          <div class='title'>
+            <div class='name'>
+              Scrap of Dark Cloth
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Scrap of Dark Cloth" class="icon" src="/images/icons/790.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT:
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.1
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Uncut Bloodclot Stone'>
+          <div class='title'>
+            <div class='name'>
+              Uncut Bloodclot Stone
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Uncut Bloodclot Stone" class="icon" src="/images/icons/1438.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: WAIST RANGE SECONDARY FACE ARMS EARS EARS WRIST NECK HANDS FINGERS CHEST LEGS BACK PRIMARY SHOULDERS HEAD FEET
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.0
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Cut Bloodclot Stone'>
+          <div class='title'>
+            <div class='name'>
+              Cut Bloodclot Stone
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Cut Bloodclot Stone" class="icon" src="/images/icons/1432.gif?1210044561" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: WAIST RANGE SECONDARY FACE ARMS EARS EARS WRIST NECK HANDS FINGERS CHEST LEGS BACK PRIMARY SHOULDERS HEAD FEET
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='stats'>
+              
+            </div>
+            <div class='mid'>
+              WT:
+              0.0
+              Size: TINY
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class='item' name='Fabled Stained Cloth Mask'>
+          <div class='title'>
+            <div class='name'>
+              Fabled Stained Cloth Mask
+            </div>
+          </div>
+          <div class='body' style='display:none;'>
+            <div class='icon'>
+              <img alt="Fabled Stained Cloth Mask" class="icon" src="/images/icons/528.gif?1210044562" />
+            </div>
+            <div class='top'>
+              MAGIC LORE NO TRADE
+            </div>
+            <div class='slot'>
+              SLOT: FACE
+            </div>
+            <div class='skill'>
+              
+            </div>
+            <div class='ac'>
+              AC:
+              12
+            </div>
+            <div class='stats'>
+              STR: +10 STA: +10 WIS: +11 INT: +11 CHA: +9 HP: +95 MANA: +115 SV POISON: +13 SV DISEASE: +15 SV COLD: +10
+            </div>
+            <div class='mid'>
+              WT:
+              3.0
+              Size: SMALL
+            </div>
+            <div class='class'>
+              CLASS: ALL
+            </div>
+            <div class='race'>
+              RACE: ALL
+            </div>
+            <br class='clear'>
+          </div>
+        </div>
+        <div class="pagination"><a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=2&amp;utf8=%E2%9C%93" class="prev_page" rel="prev">&laquo; Previous</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=1&amp;utf8=%E2%9C%93" rel="start">1</a> <a href="/items/search?commit=search&amp;item_search[classes]=2&amp;item_search[name]=Clot&amp;page=2&amp;utf8=%E2%9C%93" rel="prev">2</a> <span class="current">3</span> <span class="disabled next_page">Next &raquo;</span></div>
+      </div>
+    </div>
+    <div id='nav'>
+      
+      <p><a href="/users/sign_up">Create an Account</a></p>
+      <p><a href="/users/sign_in">Sign in</a></p>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        google_ad_client = "ca-pub-0085223469947170";
+        google_ad_slot = "0081855298";
+        google_ad_width = 728;
+        google_ad_height = 90;
+      //]]>
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-19773125-1']);
+         _gaq.push(['_trackPageview']);
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </body>
+</html>
