@@ -4,7 +4,7 @@
     - if admin?
       = link_to('Edit', edit_item_path(item))
       |
-      = link_to('Remove', item_hide_path(item), :method => :post)
+      = link_to('Remove', item_hide_path(item), :method => :post, :confirm => "Are you sure?")
   .icon
     = get_icon(item)
   .top
