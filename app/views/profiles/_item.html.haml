@@ -1,6 +1,10 @@
 .item{:name => addslashes(item.name)}
   .name
     = item.name
+    - if admin?
+      = link_to('Edit', edit_item_path(item))
+      |
+      = link_to('Remove', item_hide_path(item), :method => :post)
   .icon
     = get_icon(item)
   .top
@@ -13,6 +17,9 @@
     .ac
       AC:
       = item.ac
+  - if item.proc?
+    .proc
+      = format_effect(item.proc)
   - if item.effect?
     .effect
       = format_effect(item.effect)

@@ -1,0 +1,11 @@
+.reports.container
+  = table_for(@reports) do |t|
+    = t.head('Type', 'Id', 'Description', 'User', 'Action')
+    = t.body do |report|
+      = t.r(:class => cycle('', 'alt')) do
+        = t.d report.problemable_type
+        = t.d report.problemable_id
+        = t.d truncate(report.description)
+        = t.d report.user.email
+        = t.d link_to('Show', report_path(report))
+  

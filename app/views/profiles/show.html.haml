@@ -132,6 +132,11 @@
           
     %br.clear
     = render :partial => 'bags'
+- if user_signed_in?
+  .actions
+    %p Update Character
+    %p= link_to('Slots', profile_slot_path(@character))
+    %p= link_to('Edit', edit_profile_path(@character))
 #itemdiv.item{:style => 'display:none;'}
 .items.hidden
   - @character.all_slots.uniq.compact.each do |item|

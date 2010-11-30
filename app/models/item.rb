@@ -12,6 +12,15 @@ class Item < ActiveRecord::Base
     clickeffect > -1
   end
   
+  def proc?
+    proceffect > -1
+  end
+  
+  def proc
+    return if proceffect < 0
+    @proc ||= Spell.find(proceffect)
+  end
+  
   def effect
     return if clickeffect < 0
     @effect ||= Spell.find(clickeffect)
@@ -55,6 +64,16 @@ class Item < ActiveRecord::Base
   
   def range
     _range
+  end
+  
+  def hide!
+    self.hidden = true
+    save(false)
+  end
+  
+  def unhide!
+    self.hidden = false
+    save(false)
   end
   
 end

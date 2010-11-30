@@ -91,6 +91,10 @@ class ItemSearch
     ["items.cr >= ?", cr] unless cr.blank?
   end
 
+  def hidden_conditions
+    ["items.hidden = ?", false]
+  end
+
   def conditions
     [conditions_clauses.join(' AND '), *conditions_options]
   end

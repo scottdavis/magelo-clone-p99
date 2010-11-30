@@ -206,6 +206,14 @@ body {
 }
 
 .profiles {
+  .actions {
+    position:absolute;
+    p {
+      color:white;
+    }
+    top:400px;
+    left:20px;
+  }
   .right {
     @include float-right;
   }
@@ -413,6 +421,17 @@ body {
       width:500px;
       background-color:#eee;
       @include border-radius(5px);
+    }
+  }
+}
+.reports {
+  table {
+    width:100%;
+    a {
+      color:black;
+    }
+    tr.alt {
+      background-color:#ddd;
     }
   }
 }

@@ -24,6 +24,10 @@
           = yield :nav
           %p= link_to('Item Search', items_search_path)
           = render :partial => 'layouts/profile_nav'
+          - if admin?
+            %p Admin:
+            %p= link_to 'New Item', new_item_path
+            %p= link_to 'Reports', reports_path
       %br.clear
       = flashes
       %h1= @page_title unless @page_title.blank?

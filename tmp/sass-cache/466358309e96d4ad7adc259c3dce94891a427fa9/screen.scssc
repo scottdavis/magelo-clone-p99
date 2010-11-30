@@ -1,0 +1,616 @@
+3.0.18 (Classy Cassidy)
+3a0f21c9ad48b12786fcba14f53f27600e86b909
+o:Sass::Tree::RootNode
+:
+@linei:@has_childrenT:@options{:css_location"1/Users/sdavis/Work/magelo/public/stylesheets:css_filename"E/Users/sdavis/Work/magelo/public/stylesheets/compiled/screen.css:line_commentsT:full_exceptionT:filename":/Users/sdavis/Work/magelo/app/stylesheets/screen.scss:
+quietT:load_paths["6/Users/sdavis/Work/magelo/public/stylesheets/sass"./Users/sdavis/Work/magelo/app/stylesheets"c/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/blueprint/stylesheets"w/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/_blueprint_deprecated_imports/stylesheets"a/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/compass/stylesheets"u/Users/sdavis/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.5/frameworks/_compass_deprecated_imports/stylesheets:property_syntax0:always_checkT:
+style:expanded:
+cacheT:template_location[[@@[@":/Users/sdavis/Work/magelo/public/stylesheets/compiled[@":/Users/sdavis/Work/magelo/public/stylesheets/compiled[@":/Users/sdavis/Work/magelo/public/stylesheets/compiled[@":/Users/sdavis/Work/magelo/public/stylesheets/compiled[@":/Users/sdavis/Work/magelo/public/stylesheets/compiled:cache_location"-/Users/sdavis/Work/magelo/tmp/sass-cache:syntax:	scss:@template"´/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+
+$blue:#124a7e;
+$gray:#3d3a3a;
+$gold:#b77e2b;
+body {
+  p{
+    color:black;
+    padding:5px;
+  }
+  .google {
+    text-align:center;
+    padding-top:120px;
+  }
+  .pagination {
+    background-color:#eee;
+    text-align: center;
+    padding: .3em; }
+    .pagination a, .pagination span {
+      padding: .2em .5em; }
+    .pagination span.disabled {
+      color: $gold; }
+    .pagination span.current {
+      font-weight: bold;
+      color: black; }
+    .pagination a {
+      color: black;
+      text-decoration: none; }
+      .pagination a:hover, .pagination a:focus {
+        border-color: $blue;
+        background: white;
+        color: $blue; }
+    .pagination .page_info {
+      color: #aaa;
+      padding-top: .8em; }
+    .pagination .prev_page, .pagination .next_page {
+      border-width: 2px; }
+    .pagination .prev_page {
+      margin-right: 1em; }
+    .pagination .next_page {
+      margin-left: 1em; }
+}
+
+#wrapper {
+  width:1024px;
+  margin:{
+    left:auto;
+    right:auto;
+  };
+}
+
+#header {
+  #nav,.logo {
+    @include float-left;
+  }
+  #nav p {
+    @include float-left;
+  }
+}
+
+
+
+#header, #wrapper {
+  background-color:$blue;
+}
+
+a {
+  color:white;
+}
+a:hover {
+  color:#eee;
+}
+a:visited {
+  color:#ccc;
+}
+
+.landing {
+  .index {
+    p{
+      color:white;
+      padding:5px;
+    }
+  }
+}
+
+h1 {
+  color:white;
+  padding:15px;
+  font-size:30px;
+  text-align:center;
+}
+
+h2 {
+  color:white;
+  padding:15px;
+  font-size:25px;
+  text-align:center; 
+}
+
+
+#nav {
+  p{
+    color:white;
+    padding:5px;
+    a {
+      color:white;
+    }
+  }
+}
+
+.notice {
+  color: green;
+}
+
+.alert {
+  color: red;
+}
+
+div.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  margin-left:auto;
+  margin-right:auto;
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  font-size:19px;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation ul li {
+  color:black;
+  padding:5px;
+  font-size: 12px;
+  list-style: none;
+  font-size:18px;
+}
+
+form {
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  width:700px;
+  @include border-radius(5px);
+  color:black;
+  h2{
+    font-size: 24px;
+    padding:5px;
+    padding-bottom:10px;
+  }
+  label {
+    color:black;
+    font-size:20px;
+  }
+  p{
+    padding:5px;
+  }
+  background-color:#eee;
+}
+
+.sessions, .registrations {
+  h2 {
+    font-size:24px;
+    color:white;
+    padding:10px;
+  }
+  .new {
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:$blue;
+    a {
+      line-height:2;
+      font-size:18px;
+    }
+  }
+}
+
+
+
+body {
+  background-color:$gray;
+}
+
+.profiles {
+  .actions {
+    position:absolute;
+    p {
+      color:white;
+    }
+    top:400px;
+    left:20px;
+  }
+  .right {
+    @include float-right;
+  }
+
+  .left {
+    @include float-left;
+  }
+  .slots {
+    .item_data {
+      width:350px;
+    }
+    .clickable_item_data {
+      background-color:white;
+      color:black;
+      border:1px solid black;
+    }
+    .clickable_item_data:hover {
+      background-color:#eee;
+    }
+  }
+  .show {
+    .item { 
+      left:433px;
+      padding:5px;
+      position:absolute;
+      top:336px;
+      height:135px;
+    }
+    width:850px;
+    height:600px;
+    background-image:image_url('profile_template.png');
+    .about {
+      border:1px solid white;
+      padding:4px;
+      width:120px;
+      @include border-radius(5px);
+    }
+    .char_stats {
+      width:65px;
+      .haste, .manaregeneration {
+        padding-top:10px;
+      }
+    }
+    #character {
+      position :relative;
+      #bag_area {
+        height:240px;
+        left:428px;
+        position:absolute;
+        top:50px;
+        width:100px;
+      }
+      #bags {
+        left:325px;
+        position:absolute;
+        top:235px;
+        width:84px;
+      }
+
+      .character {
+        width:253px;
+        height:180px;
+        color:white;
+        .top, .middle, .bottom, .weapons {
+          @include float-right;
+          height:41px;
+        }
+      }
+      .left_b {
+        border-left:solid black 1px;
+      }
+      .bottom_b {
+        border-bottom:solid black 1px;
+      }
+      .slot {
+        @include float-left;
+        width:40px;
+        height:40px;
+        border-top:solid black 1px;
+        border-right:solid black 1px;
+      }
+      color:white;
+      font-size:15px;
+      padding-left:22px;
+      padding-top:55px;
+      width:385px;
+      .highlighted {
+        background-image:image_url('icon_hover.png');
+      }
+    }
+  }
+}
+
+
+.item {
+  font-size:15px;
+  color:white;
+  padding:5px;
+  width:384px;
+  .name {
+    font-weight:bold;
+    font-size:24;
+  }
+  .icon {
+    @include float-right;
+    padding-right:10px;
+  }
+}
+.clear {
+  clear:both;
+}
+
+.hidden {
+  display:none;
+}
+
+#disqus_thread {
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#eee;
+  @include border-radius(5px);
+  padding:10px;
+  a{
+    color:black;
+  }
+}
+
+
+.container {
+  p {
+    a {
+      color:black;
+    }
+  }
+  ul {
+    padding-left:20px;
+    li {
+      list-style-type: circle;
+    }
+  }
+  margin:{
+    left:auto;
+    right:auto;
+  };
+  margin-bottom:10px;
+  p {
+    color:black;
+  }
+  padding:10px;
+  width:700px;
+  @include border-radius(5px);
+  background-color:#eee;
+}
+
+.items {
+  .show {
+    .not_classic {
+      @include float-right;
+    }
+    .item {
+      background-color:$gray;
+      @include border-radius(5px);
+      pagging:10px;
+    }
+  }
+  .search {
+    #item {
+      padding:10px;
+      margin-right:30px;
+      background-color:$gray;
+      @include float-right;
+      @include border-radius(5px);
+    }
+    .items {
+      table {
+        margin: {
+         top:10px;
+         bottom:10px; 
+        }
+        th {
+          color:black;
+          font-size:18px;
+        }
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        td {
+          padding:5px;
+        }
+        tr {
+          a{
+            color:black;
+          }
+        }
+        tr.alt{
+          a {
+            color:$blue;
+          }
+          background-color:#DDD;
+        }
+      }
+      margin-left:90px;
+      @include float-left;
+      width:500px;
+      background-color:#eee;
+      @include border-radius(5px);
+    }
+  }
+}
+.reports {
+  table {
+    width:100%;
+    a {
+      color:black;
+    }
+    tr.alt {
+      background-color:#ddd;
+    }
+  }
+}:@children[(o:Sass::Tree::CommentNode;i:@silent0;@:@value"/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */;[ :@lines[ o:Sass::Tree::ImportNode
+:@imported_filename"compass/reset;i;@;0;[ o;
+; "compass/utilities;i;@;0;[ o;
+; "compass/css3;i;@;0;[ o:Sass::Tree::VariableNode:@guarded0:
+@expro:Sass::Script::Color
+;i:@context:default;{ ;0:@attrs{	:redi:
+alphai:
+greeniO:	bluei~:
+@name"	blue;i;@;[ o;!;"0;#o;$
+;i;%;&;{ ;0;'{	;(iB;)i;*i?;+i?;,"	gray;i;@;[ o;!;"0;#o;$
+;i;%;&;{ ;0;'{	;(i·;)i;*i~;+i0;,"	gold;i;@;[ o:Sass::Tree::RuleNode:
+@rule["	body;i;T;@:
+@tabsi ;[o;-;.["p;i;T;@;/i ;[o:Sass::Tree::PropNode;,["
+color;i;@;/i ;o:Sass::Script::String;%;&;"
+black:
+@type:identifier;[ :@prop_syntax:newo;0;,["padding;i;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;-;.[".google;i;T;@;/i ;[o;0;,["text-align;i;@;/i ;o;1;%;&;"center;2;3;[ ;4;5o;0;,["padding-top;i;@;/i ;o;1;%;&;"
+120px;2;3;[ ;4;5o;-;.[".pagination;i;T;@;/i ;[o;0;,["background-color;i;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;0;,["text-align;i;@;/i ;o;1;%;&;"center;2;3;[ ;4;5o;0;,["padding;i;@;/i ;o;1;%;&;"	.3em;2;3;[ ;4;5o;-;.["$.pagination a, .pagination span;i;T;@;/i ;[o;0;,["padding;i ;@;/i ;o;1;%;&;".2em .5em;2;3;[ ;4;5o;-;.[".pagination span.disabled;i!;T;@;/i ;[o;0;,["
+color;i";@;/i ;o:Sass::Script::Variable	;,"	gold;i";%;&;{ ;[ ;4;5o;-;.[".pagination span.current;i#;T;@;/i ;[o;0;,["font-weight;i$;@;/i ;o;1;%;&;"	bold;2;3;[ ;4;5o;0;,["
+color;i%;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.[".pagination a;i&;T;@;/i ;[o;0;,["
+color;i';@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["text-decoration;i(;@;/i ;o;1;%;&;"	none;2;3;[ ;4;5o;-;.["-.pagination a:hover, .pagination a:focus;i);T;@;/i ;[o;0;,["border-color;i*;@;/i ;o;6	;,"	blue;i*;%;&;{ ;[ ;4;5o;0;,["background;i+;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["
+color;i,;@;/i ;o;6	;,"	blue;i,;%;&;{ ;[ ;4;5o;-;.[".pagination .page_info;i-;T;@;/i ;[o;0;,["
+color;i.;@;/i ;o;1;%;&;"	#aaa;2;3;[ ;4;5o;0;,["padding-top;i/;@;/i ;o;1;%;&;"	.8em;2;3;[ ;4;5o;-;.["3.pagination .prev_page, .pagination .next_page;i0;T;@;/i ;[o;0;,["border-width;i1;@;/i ;o;1;%;&;"2px;2;3;[ ;4;5o;-;.[".pagination .prev_page;i2;T;@;/i ;[o;0;,["margin-right;i3;@;/i ;o;1;%;&;"1em;2;3;[ ;4;5o;-;.[".pagination .next_page;i4;T;@;/i ;[o;0;,["margin-left;i5;@;/i ;o;1;%;&;"1em;2;3;[ ;4;5o;-;.["#wrapper;i8;T;@;/i ;[o;0;,["
+width;i9;@;/i ;o;1;%;&;"1024px;2;3;[ ;4;5o;0;,["margin;i:;T;@;/i ;o;1;%;&;" ;2;3;[o;0;,["	left;i;;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["
+right;i<;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5;4;5o;-;.["#header;i@;T;@;/i ;[o;-;.["#nav,.logo;iA;T;@;/i ;[o:Sass::Tree::MixinNode
+;,"float-left;iB:
+@args[ ;@;[ o;-;.["#nav p;iD;T;@;/i ;[o;7
+;,"float-left;iE;8[ ;@;[ o;-;.["#header, #wrapper;iK;T;@;/i ;[o;0;,["background-color;iL;@;/i ;o;6	;,"	blue;iL;%;&;{ ;[ ;4;5o;-;.["a;iO;T;@;/i ;[o;0;,["
+color;iP;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;-;.["a:hover;iR;T;@;/i ;[o;0;,["
+color;iS;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;-;.["a:visited;iU;T;@;/i ;[o;0;,["
+color;iV;@;/i ;o;1;%;&;"	#ccc;2;3;[ ;4;5o;-;.[".landing;iY;T;@;/i ;[o;-;.[".index;iZ;T;@;/i ;[o;-;.["p;i[;T;@;/i ;[o;0;,["
+color;i\;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;i];@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;-;.["h1;ib;T;@;/i ;[	o;0;,["
+color;ic;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;id;@;/i ;o;1;%;&;"	15px;2;3;[ ;4;5o;0;,["font-size;ie;@;/i ;o;1;%;&;"	30px;2;3;[ ;4;5o;0;,["text-align;if;@;/i ;o;1;%;&;"center;2;3;[ ;4;5o;-;.["h2;ii;T;@;/i ;[	o;0;,["
+color;ij;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;ik;@;/i ;o;1;%;&;"	15px;2;3;[ ;4;5o;0;,["font-size;il;@;/i ;o;1;%;&;"	25px;2;3;[ ;4;5o;0;,["text-align;im;@;/i ;o;1;%;&;"center;2;3;[ ;4;5o;-;.["	#nav;iq;T;@;/i ;[o;-;.["p;ir;T;@;/i ;[o;0;,["
+color;is;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;it;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;-;.["a;iu;T;@;/i ;[o;0;,["
+color;iv;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;-;.[".notice;i{;T;@;/i ;[o;0;,["
+color;i|;@;/i ;o;1;%;&;"
+green;2;3;[ ;4;5o;-;.[".alert;i;T;@;/i ;[o;0;,["
+color;i{;@;/i ;o;1;%;&;"red;2;3;[ ;4;5o;-;.["div.field_with_errors;i~;T;@;/i ;[o;0;,["padding;i;@;/i ;o;1;%;&;"2px;2;3;[ ;4;5o;0;,["background-color;i€;@;/i ;o;1;%;&;"red;2;3;[ ;4;5o;0;,["display;i;@;/i ;o;1;%;&;"
+table;2;3;[ ;4;5o;-;.["#errorExplanation;i„;T;@;/i ;[o;0;,["margin-left;i…;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["margin-right;i†;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["
+width;i‡;@;/i ;o;1;%;&;"
+450px;2;3;[ ;4;5o;0;,["border;iˆ;@;/i ;o;1;%;&;"2px solid red;2;3;[ ;4;5o;0;,["padding;i‰;@;/i ;o;1;%;&;"7px;2;3;[ ;4;5o;0;,["padding-bottom;iŠ;@;/i ;o;1;%;&;"0;2;3;[ ;4;5o;0;,["margin-bottom;i‹;@;/i ;o;1;%;&;"	20px;2;3;[ ;4;5o;0;,["background-color;iŒ;@;/i ;o;1;%;&;"#f0f0f0;2;3;[ ;4;5o;-;.["#errorExplanation h2;i;T;@;/i ;[o;0;,["font-size;i;@;/i ;o;1;%;&;"	19px;2;3;[ ;4;5o;0;,["text-align;i‘;@;/i ;o;1;%;&;"	left;2;3;[ ;4;5o;0;,["font-weight;i’;@;/i ;o;1;%;&;"	bold;2;3;[ ;4;5o;0;,["padding;i“;@;/i ;o;1;%;&;"5px 5px 5px 15px;2;3;[ ;4;5o;0;,["margin;i”;@;/i ;o:Sass::Script::Number:@denominator_units[ ;i”:@numerator_units["px;%;&;{ ;iô:@original"	-7px;[ ;4;5o;0;,["margin-bottom;i•;@;/i ;o;1;%;&;"0px;2;3;[ ;4;5o;0;,["background-color;i–;@;/i ;o;1;%;&;"	#c00;2;3;[ ;4;5o;0;,["
+color;i—;@;/i ;o;1;%;&;"	#fff;2;3;[ ;4;5o;-;.["#errorExplanation ul li;iš;T;@;/i ;[
+o;0;,["
+color;i›;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["padding;iœ;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;0;,["font-size;i;@;/i ;o;1;%;&;"	12px;2;3;[ ;4;5o;0;,["list-style;iž;@;/i ;o;1;%;&;"	none;2;3;[ ;4;5o;0;,["font-size;iŸ;@;/i ;o;1;%;&;"	18px;2;3;[ ;4;5o;-;.["	form;i¢;T;@;/i ;[o;0;,["margin-left;i£;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["margin-right;i¤;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["padding;i¥;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;0;,["
+width;i¦;@;/i ;o;1;%;&;"
+700px;2;3;[ ;4;5o;7
+;,"border-radius;i§;8[o;9;:[ ;i§;;["px;%;&;{ ;i
+;<"5px;@;[ o;0;,["
+color;i¨;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.["h2;i©;T;@;/i ;[o;0;,["font-size;iª;@;/i ;o;1;%;&;"	24px;2;3;[ ;4;5o;0;,["padding;i«;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;0;,["padding-bottom;i¬;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.["
+label;i®;T;@;/i ;[o;0;,["
+color;i¯;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["font-size;i°;@;/i ;o;1;%;&;"	20px;2;3;[ ;4;5o;-;.["p;i²;T;@;/i ;[o;0;,["padding;i³;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;0;,["background-color;iµ;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;-;.[".sessions, .registrations;i¸;T;@;/i ;[o;-;.["h2;i¹;T;@;/i ;[o;0;,["font-size;iº;@;/i ;o;1;%;&;"	24px;2;3;[ ;4;5o;0;,["
+color;i»;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;i¼;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.["	.new;i¾;T;@;/i ;[
+o;0;,["margin-top;i¿;@;/i ;o;1;%;&;"	50px;2;3;[ ;4;5o;0;,["margin-left;iÀ;@;/i ;o;1;%;&;"	50px;2;3;[ ;4;5o;0;,["margin-right;iÁ;@;/i ;o;1;%;&;"	50px;2;3;[ ;4;5o;0;,["background-color;iÂ;@;/i ;o;6	;,"	blue;iÂ;%;&;{ ;[ ;4;5o;-;.["a;iÃ;T;@;/i ;[o;0;,["line-height;iÄ;@;/i ;o;1;%;&;"2;2;3;[ ;4;5o;0;,["font-size;iÅ;@;/i ;o;1;%;&;"	18px;2;3;[ ;4;5o;-;.["	body;iÌ;T;@;/i ;[o;0;,["background-color;iÍ;@;/i ;o;6	;,"	gray;iÍ;%;&;{ ;[ ;4;5o;-;.[".profiles;iÐ;T;@;/i ;[
+o;-;.[".actions;iÑ;T;@;/i ;[	o;0;,["position;iÒ;@;/i ;o;1;%;&;"absolute;2;3;[ ;4;5o;-;.["p;iÓ;T;@;/i ;[o;0;,["
+color;iÔ;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["top;iÖ;@;/i ;o;1;%;&;"
+400px;2;3;[ ;4;5o;0;,["	left;i×;@;/i ;o;1;%;&;"	20px;2;3;[ ;4;5o;-;.[".right;iÙ;T;@;/i ;[o;7
+;,"float-right;iÚ;8[ ;@;[ o;-;.["
+.left;iÝ;T;@;/i ;[o;7
+;,"float-left;iÞ;8[ ;@;[ o;-;.[".slots;ià;T;@;/i ;[o;-;.[".item_data;iá;T;@;/i ;[o;0;,["
+width;iâ;@;/i ;o;1;%;&;"
+350px;2;3;[ ;4;5o;-;.[".clickable_item_data;iä;T;@;/i ;[o;0;,["background-color;iå;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["
+color;iæ;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["border;iç;@;/i ;o;1;%;&;"1px solid black;2;3;[ ;4;5o;-;.[".clickable_item_data:hover;ié;T;@;/i ;[o;0;,["background-color;iê;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;-;.["
+.show;ií;T;@;/i ;[o;-;.["
+.item;iî;T;@;/i ;[
+o;0;,["	left;iï;@;/i ;o;1;%;&;"
+433px;2;3;[ ;4;5o;0;,["padding;ið;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;0;,["position;iñ;@;/i ;o;1;%;&;"absolute;2;3;[ ;4;5o;0;,["top;iò;@;/i ;o;1;%;&;"
+336px;2;3;[ ;4;5o;0;,["height;ió;@;/i ;o;1;%;&;"
+135px;2;3;[ ;4;5o;0;,["
+width;iõ;@;/i ;o;1;%;&;"
+850px;2;3;[ ;4;5o;0;,["height;iö;@;/i ;o;1;%;&;"
+600px;2;3;[ ;4;5o;0;,["background-image;i÷;@;/i ;o:Sass::Script::Funcall
+;,"image_url;i÷;%;&;8[o;1
+;i÷;%;&;{ ;"profile_template.png;2:string;@½;[ ;4;5o;-;.[".about;iø;T;@;/i ;[	o;0;,["border;iù;@;/i ;o;1;%;&;"1px solid white;2;3;[ ;4;5o;0;,["padding;iú;@;/i ;o;1;%;&;"4px;2;3;[ ;4;5o;0;,["
+width;iû;@;/i ;o;1;%;&;"
+120px;2;3;[ ;4;5o;7
+;,"border-radius;iü;8[o;9;:[ ;iü;;["px;%;&;{ ;i
+;<"5px;@;[ o;-;.[".char_stats;iþ;T;@;/i ;[o;0;,["
+width;iÿ;@;/i ;o;1;%;&;"	65px;2;3;[ ;4;5o;-;.[".haste, .manaregeneration;i ;T;@;/i ;[o;0;,["padding-top;i;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.["#character;i;T;@;/i ;[o;0;,["position;i;@;/i ;o;1;%;&;"relative;2;3;[ ;4;5o;-;.["#bag_area;i;T;@;/i ;[
+o;0;,["height;i;@;/i ;o;1;%;&;"
+240px;2;3;[ ;4;5o;0;,["	left;i;@;/i ;o;1;%;&;"
+428px;2;3;[ ;4;5o;0;,["position;i	;@;/i ;o;1;%;&;"absolute;2;3;[ ;4;5o;0;,["top;i
+;@;/i ;o;1;%;&;"	50px;2;3;[ ;4;5o;0;,["
+width;i;@;/i ;o;1;%;&;"
+100px;2;3;[ ;4;5o;-;.["
+#bags;i;T;@;/i ;[	o;0;,["	left;i;@;/i ;o;1;%;&;"
+325px;2;3;[ ;4;5o;0;,["position;i;@;/i ;o;1;%;&;"absolute;2;3;[ ;4;5o;0;,["top;i;@;/i ;o;1;%;&;"
+235px;2;3;[ ;4;5o;0;,["
+width;i;@;/i ;o;1;%;&;"	84px;2;3;[ ;4;5o;-;.[".character;i;T;@;/i ;[	o;0;,["
+width;i;@;/i ;o;1;%;&;"
+253px;2;3;[ ;4;5o;0;,["height;i;@;/i ;o;1;%;&;"
+180px;2;3;[ ;4;5o;0;,["
+color;i;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;-;.["%.top, .middle, .bottom, .weapons;i;T;@;/i ;[o;7
+;,"float-right;i;8[ ;@;[ o;0;,["height;i;@;/i ;o;1;%;&;"	41px;2;3;[ ;4;5o;-;.[".left_b;i;T;@;/i ;[o;0;,["border-left;i;@;/i ;o;1;%;&;"solid black 1px;2;3;[ ;4;5o;-;.[".bottom_b;i ;T;@;/i ;[o;0;,["border-bottom;i!;@;/i ;o;1;%;&;"solid black 1px;2;3;[ ;4;5o;-;.["
+.slot;i#;T;@;/i ;[
+o;7
+;,"float-left;i$;8[ ;@;[ o;0;,["
+width;i%;@;/i ;o;1;%;&;"	40px;2;3;[ ;4;5o;0;,["height;i&;@;/i ;o;1;%;&;"	40px;2;3;[ ;4;5o;0;,["border-top;i';@;/i ;o;1;%;&;"solid black 1px;2;3;[ ;4;5o;0;,["border-right;i(;@;/i ;o;1;%;&;"solid black 1px;2;3;[ ;4;5o;0;,["
+color;i*;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["font-size;i+;@;/i ;o;1;%;&;"	15px;2;3;[ ;4;5o;0;,["padding-left;i,;@;/i ;o;1;%;&;"	22px;2;3;[ ;4;5o;0;,["padding-top;i-;@;/i ;o;1;%;&;"	55px;2;3;[ ;4;5o;0;,["
+width;i.;@;/i ;o;1;%;&;"
+385px;2;3;[ ;4;5o;-;.[".highlighted;i/;T;@;/i ;[o;0;,["background-image;i0;@;/i ;o;=
+;,"image_url;i0;%;&;8[o;1
+;i0;%;&;{ ;"icon_hover.png;2;>;@½;[ ;4;5o;-;.["
+.item;i7;T;@;/i ;[o;0;,["font-size;i8;@;/i ;o;1;%;&;"	15px;2;3;[ ;4;5o;0;,["
+color;i9;@;/i ;o;1;%;&;"
+white;2;3;[ ;4;5o;0;,["padding;i:;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;0;,["
+width;i;;@;/i ;o;1;%;&;"
+384px;2;3;[ ;4;5o;-;.["
+.name;i<;T;@;/i ;[o;0;,["font-weight;i=;@;/i ;o;1;%;&;"	bold;2;3;[ ;4;5o;0;,["font-size;i>;@;/i ;o;1;%;&;"24;2;3;[ ;4;5o;-;.["
+.icon;i@;T;@;/i ;[o;7
+;,"float-right;iA;8[ ;@;[ o;0;,["padding-right;iB;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.[".clear;iE;T;@;/i ;[o;0;,["
+clear;iF;@;/i ;o;1;%;&;"	both;2;3;[ ;4;5o;-;.[".hidden;iI;T;@;/i ;[o;0;,["display;iJ;@;/i ;o;1;%;&;"	none;2;3;[ ;4;5o;-;.["#disqus_thread;iM;T;@;/i ;[o;0;,["
+width;iN;@;/i ;o;1;%;&;"
+700px;2;3;[ ;4;5o;0;,["margin-left;iO;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["margin-right;iP;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["background-color;iQ;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;7
+;,"border-radius;iR;8[o;9;:[ ;iR;;["px;%;&;{ ;i
+;<"5px;@;[ o;0;,["padding;iS;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.["a;iT;T;@;/i ;[o;0;,["
+color;iU;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.[".container;iZ;T;@;/i ;[o;-;.["p;i[;T;@;/i ;[o;-;.["a;i\;T;@;/i ;[o;0;,["
+color;i];@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.["ul;i`;T;@;/i ;[o;0;,["padding-left;ia;@;/i ;o;1;%;&;"	20px;2;3;[ ;4;5o;-;.["li;ib;T;@;/i ;[o;0;,["list-style-type;ic;@;/i ;o;1;%;&;"circle;2;3;[ ;4;5o;0;,["margin;if;T;@;/i ;o;1;%;&;" ;2;3;[o;0;,["	left;ig;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["
+right;ih;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5;4;5o;0;,["margin-bottom;ij;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.["p;ik;T;@;/i ;[o;0;,["
+color;il;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["padding;in;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;0;,["
+width;io;@;/i ;o;1;%;&;"
+700px;2;3;[ ;4;5o;7
+;,"border-radius;ip;8[o;9;:[ ;ip;;["px;%;&;{ ;i
+;<"5px;@;[ o;0;,["background-color;iq;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;-;.[".items;it;T;@;/i ;[o;-;.["
+.show;iu;T;@;/i ;[o;-;.[".not_classic;iv;T;@;/i ;[o;7
+;,"float-right;iw;8[ ;@;[ o;-;.["
+.item;iy;T;@;/i ;[o;0;,["background-color;iz;@;/i ;o;6	;,"	gray;iz;%;&;{ ;[ ;4;5o;7
+;,"border-radius;i{;8[o;9;:[ ;i{;;["px;%;&;{ ;i
+;<"5px;@;[ o;0;,["pagging;i|;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;-;.[".search;i;T;@;/i ;[o;-;.["
+#item;i€;T;@;/i ;[
+o;0;,["padding;i;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;0;,["margin-right;i‚;@;/i ;o;1;%;&;"	30px;2;3;[ ;4;5o;0;,["background-color;iƒ;@;/i ;o;6	;,"	gray;iƒ;%;&;{ ;[ ;4;5o;7
+;,"float-right;i„;8[ ;@;[ o;7
+;,"border-radius;i…;8[o;9;:[ ;i…;;["px;%;&;{ ;i
+;<"5px;@;[ o;-;.[".items;i‡;T;@;/i ;[o;-;.["
+table;iˆ;T;@;/i ;[o;0;,["margin;i‰;T;@;/i ;o;1;%;&;" ;2;3;[o;0;,["top;iŠ;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5o;0;,["bottom;i‹;@;/i ;o;1;%;&;"	10px;2;3;[ ;4;5;4;5o;-;.["th;i;T;@;/i ;[o;0;,["
+color;iŽ;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;0;,["font-size;i;@;/i ;o;1;%;&;"	18px;2;3;[ ;4;5o;0;,["
+width;i‘;@;/i ;o;1;%;&;"90%;2;3;[ ;4;5o;0;,["margin-left;i’;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;0;,["margin-right;i“;@;/i ;o;1;%;&;"	auto;2;3;[ ;4;5o;-;.["td;i”;T;@;/i ;[o;0;,["padding;i•;@;/i ;o;1;%;&;"5px;2;3;[ ;4;5o;-;.["tr;i—;T;@;/i ;[o;-;.["a;i˜;T;@;/i ;[o;0;,["
+color;i™;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.["tr.alt;iœ;T;@;/i ;[o;-;.["a;i;T;@;/i ;[o;0;,["
+color;iž;@;/i ;o;6	;,"	blue;iž;%;&;{ ;[ ;4;5o;0;,["background-color;i ;@;/i ;o;1;%;&;"	#DDD;2;3;[ ;4;5o;0;,["margin-left;i£;@;/i ;o;1;%;&;"	90px;2;3;[ ;4;5o;7
+;,"float-left;i¤;8[ ;@;[ o;0;,["
+width;i¥;@;/i ;o;1;%;&;"
+500px;2;3;[ ;4;5o;0;,["background-color;i¦;@;/i ;o;1;%;&;"	#eee;2;3;[ ;4;5o;7
+;,"border-radius;i§;8[o;9;:[ ;i§;;["px;%;&;{ ;i
+;<"5px;@;[ o;-;.[".reports;i«;T;@;/i ;[o;-;.["
+table;i¬;T;@;/i ;[o;0;,["
+width;i­;@;/i ;o;1;%;&;"	100%;2;3;[ ;4;5o;-;.["a;i®;T;@;/i ;[o;0;,["
+color;i¯;@;/i ;o;1;%;&;"
+black;2;3;[ ;4;5o;-;.["tr.alt;i±;T;@;/i ;[o;0;,["background-color;i²;@;/i ;o;1;%;&;"	#ddd;2;3;[ ;4;5

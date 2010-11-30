@@ -8,5 +8,11 @@ class ApplicationController < ActionController::Base
     @page_title = ''
   end
   
+  def is_admin?
+    unless current_user.admin?
+      redirect_to root_path, :notice => "Access denied"
+      return
+    end
+  end
   
 end

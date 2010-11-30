@@ -1,0 +1,20 @@
+.container
+  %p 
+    Problem Item:
+    = link_to_poly(@report.problemable)
+  %p
+    Description:
+  %p
+    = @report.description
+  
+  
+  .actions
+    = link_to "Back", reports_path
+    = form_for(@report) do |f|
+      %p
+        %p
+          = f.label :comment
+        = f.text_area :comment
+      = f.hidden_field :fixer, :value => current_user.id
+      = f.submit "Update Report"
+      = f.submit "Close Report"

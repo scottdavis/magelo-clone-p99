@@ -1,11 +1,16 @@
 module ApplicationHelper
-  
+  include ProfilesHelper
   def flashes
     out = []
     flash.each do |k,v|
       out << content_tag(:div, v, :id => "flash_#{k}", :class => 'flash container')
     end
     out.join.html_safe
+  end
+  
+  def admin?
+    return false unless current_user
+    return current_user.admin
   end
   
   

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101122084351) do
+ActiveRecord::Schema.define(:version => 20101130053922) do
 
   create_table "bag_slots", :force => true do |t|
     t.integer  "item_id"
@@ -82,181 +82,182 @@ ActiveRecord::Schema.define(:version => 20101122084351) do
   end
 
   create_table "items", :force => true do |t|
-    t.integer  "minstatus",       :limit => 2,  :default => 0,   :null => false
-    t.string   "name",            :limit => 64, :default => "",  :null => false
-    t.integer  "aagi",                          :default => 0,   :null => false
-    t.integer  "ac",                            :default => 0,   :null => false
-    t.integer  "accuracy",                      :default => 0,   :null => false
-    t.integer  "acha",                          :default => 0,   :null => false
-    t.integer  "adex",                          :default => 0,   :null => false
-    t.integer  "aint",                          :default => 0,   :null => false
-    t.integer  "artifactflag",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "asta",                          :default => 0,   :null => false
-    t.integer  "astr",                          :default => 0,   :null => false
-    t.integer  "attack",                        :default => 0,   :null => false
-    t.integer  "augrestrict",                   :default => 0,   :null => false
-    t.integer  "augslot1type",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "augslot2type",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "augslot3type",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "augslot4type",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "augslot5type",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "augtype",                       :default => 0,   :null => false
-    t.integer  "avoidance",                     :default => 0,   :null => false
-    t.integer  "awis",                          :default => 0,   :null => false
-    t.integer  "bagsize",                       :default => 0,   :null => false
-    t.integer  "bagslots",                      :default => 0,   :null => false
-    t.integer  "bagtype",                       :default => 0,   :null => false
-    t.integer  "bagwr",                         :default => 0,   :null => false
-    t.integer  "banedmgamt",                    :default => 0,   :null => false
-    t.integer  "banedmgraceamt",                :default => 0,   :null => false
-    t.integer  "banedmgbody",                   :default => 0,   :null => false
-    t.integer  "banedmgrace",                   :default => 0,   :null => false
-    t.integer  "bardtype",                      :default => 0,   :null => false
-    t.integer  "bardvalue",                     :default => 0,   :null => false
-    t.integer  "book",                          :default => 0,   :null => false
-    t.integer  "casttime",                      :default => 0,   :null => false
-    t.integer  "casttime_",                     :default => 0,   :null => false
-    t.string   "charmfile",       :limit => 32, :default => "",  :null => false
-    t.string   "charmfileid",     :limit => 32, :default => "",  :null => false
-    t.integer  "classes",                       :default => 0,   :null => false
-    t.integer  "color",                         :default => 0,   :null => false
-    t.string   "combateffects",   :limit => 10, :default => "",  :null => false
-    t.integer  "extradmgskill",                 :default => 0,   :null => false
-    t.integer  "extradmgamt",                   :default => 0,   :null => false
-    t.integer  "price",                         :default => 0,   :null => false
-    t.integer  "cr",                            :default => 0,   :null => false
-    t.integer  "damage",                        :default => 0,   :null => false
-    t.integer  "damageshield",                  :default => 0,   :null => false
-    t.integer  "deity",                         :default => 0,   :null => false
-    t.integer  "delay",                         :default => 0,   :null => false
-    t.integer  "augdistiller",                  :default => 0,   :null => false
-    t.integer  "dotshielding",                  :default => 0,   :null => false
-    t.integer  "dr",                            :default => 0,   :null => false
-    t.integer  "clicktype",                     :default => 0,   :null => false
-    t.integer  "clicklevel2",                   :default => 0,   :null => false
-    t.integer  "elemdmgtype",                   :default => 0,   :null => false
-    t.integer  "elemdmgamt",                    :default => 0,   :null => false
-    t.integer  "endur",                         :default => 0,   :null => false
-    t.integer  "factionamt1",                   :default => 0,   :null => false
-    t.integer  "factionamt2",                   :default => 0,   :null => false
-    t.integer  "factionamt3",                   :default => 0,   :null => false
-    t.integer  "factionamt4",                   :default => 0,   :null => false
-    t.integer  "factionmod1",                   :default => 0,   :null => false
-    t.integer  "factionmod2",                   :default => 0,   :null => false
-    t.integer  "factionmod3",                   :default => 0,   :null => false
-    t.integer  "factionmod4",                   :default => 0,   :null => false
-    t.string   "filename",        :limit => 32, :default => "",  :null => false
-    t.integer  "focuseffect",                   :default => 0,   :null => false
-    t.integer  "fr",                            :default => 0,   :null => false
-    t.integer  "fvnodrop",                      :default => 0,   :null => false
-    t.integer  "haste",                         :default => 0,   :null => false
-    t.integer  "clicklevel",                    :default => 0,   :null => false
-    t.integer  "hp",                            :default => 0,   :null => false
-    t.integer  "regen",                         :default => 0,   :null => false
-    t.integer  "icon",                          :default => 0,   :null => false
-    t.string   "idfile",          :limit => 30, :default => "",  :null => false
-    t.integer  "itemclass",                     :default => 0,   :null => false
-    t.integer  "itemtype",                      :default => 0,   :null => false
-    t.integer  "ldonprice",                     :default => 0,   :null => false
-    t.integer  "ldontheme",                     :default => 0,   :null => false
-    t.integer  "ldonsold",                      :default => 0,   :null => false
-    t.integer  "light",                         :default => 0,   :null => false
-    t.string   "lore",            :limit => 80, :default => "",  :null => false
-    t.integer  "loreflag",        :limit => 1,  :default => 0,   :null => false
-    t.integer  "magic",                         :default => 0,   :null => false
-    t.integer  "mana",                          :default => 0,   :null => false
-    t.integer  "manaregen",                     :default => 0,   :null => false
-    t.integer  "material",                      :default => 0,   :null => false
-    t.integer  "maxcharges",                    :default => 0,   :null => false
-    t.integer  "mr",                            :default => 0,   :null => false
-    t.integer  "nodrop",                        :default => 0,   :null => false
-    t.integer  "norent",                        :default => 0,   :null => false
-    t.integer  "pendingloreflag", :limit => 1,  :default => 0,   :null => false
-    t.integer  "pr",                            :default => 0,   :null => false
-    t.integer  "procrate",                      :default => 0,   :null => false
-    t.integer  "races",                         :default => 0,   :null => false
-    t.integer  "_range",                        :default => 0,   :null => false
-    t.integer  "reclevel",                      :default => 0,   :null => false
-    t.integer  "recskill",                      :default => 0,   :null => false
-    t.integer  "reqlevel",                      :default => 0,   :null => false
-    t.float    "sellrate",                      :default => 0.0, :null => false
-    t.integer  "shielding",                     :default => 0,   :null => false
-    t.integer  "size",                          :default => 0,   :null => false
-    t.integer  "skillmodtype",                  :default => 0,   :null => false
-    t.integer  "skillmodvalue",                 :default => 0,   :null => false
-    t.integer  "slots",                         :default => 0,   :null => false
-    t.integer  "clickeffect",                   :default => 0,   :null => false
-    t.integer  "spellshield",                   :default => 0,   :null => false
-    t.integer  "strikethrough",                 :default => 0,   :null => false
-    t.integer  "stunresist",                    :default => 0,   :null => false
-    t.integer  "summonedflag",    :limit => 1,  :default => 0,   :null => false
-    t.integer  "tradeskills",                   :default => 0,   :null => false
-    t.integer  "favor",                         :default => 0,   :null => false
-    t.integer  "weight",                        :default => 0,   :null => false
-    t.integer  "unknown002",                    :default => 0,   :null => false
-    t.integer  "unknown003",                    :default => 0,   :null => false
-    t.integer  "unknown005",                    :default => 0,   :null => false
-    t.integer  "unknown007",                    :default => 0,   :null => false
-    t.integer  "unknown018",                    :default => 0,   :null => false
-    t.integer  "unknown019",                    :default => 0,   :null => false
-    t.integer  "unknown020",                    :default => 0,   :null => false
-    t.integer  "UNK012",                        :default => 0,   :null => false
-    t.integer  "UNK013",                        :default => 0,   :null => false
-    t.integer  "benefitflag",                   :default => 0,   :null => false
-    t.integer  "unknown061",                    :default => 0,   :null => false
-    t.integer  "UNK054",                        :default => 0,   :null => false
-    t.integer  "unknown067",                    :default => 0,   :null => false
-    t.integer  "unknown069",                    :default => 0,   :null => false
-    t.integer  "UNK059",                        :default => 0,   :null => false
-    t.integer  "UNK061",                        :default => 0,   :null => false
-    t.integer  "unknown081",                    :default => 0,   :null => false
-    t.integer  "unknown105",                    :default => 0,   :null => false
-    t.integer  "booktype",                      :default => 0,   :null => false
-    t.integer  "unknown122",                    :default => 0,   :null => false
-    t.string   "unknown123",      :limit => 11, :default => "0", :null => false
-    t.string   "unknown124",      :limit => 11, :default => "0", :null => false
-    t.integer  "recastdelay",                   :default => 0,   :null => false
-    t.integer  "recasttype",                    :default => 0,   :null => false
-    t.integer  "guildfavor",                    :default => 0,   :null => false
-    t.string   "unknown128",      :limit => 11, :default => "0", :null => false
-    t.integer  "UNK117",                        :default => 0,   :null => false
-    t.integer  "UNK118",                        :default => 0,   :null => false
-    t.integer  "attuneable",                    :default => 0,   :null => false
-    t.integer  "nopet",                         :default => 0,   :null => false
-    t.string   "unknown133",      :limit => 11, :default => "0", :null => false
-    t.datetime "updated",                                        :null => false
-    t.string   "comment",                       :default => "",  :null => false
-    t.integer  "UNK121",                        :default => 0,   :null => false
-    t.integer  "pointtype",                     :default => 0,   :null => false
-    t.integer  "potionbelt",                    :default => 0,   :null => false
-    t.integer  "UNK124",                        :default => 0,   :null => false
-    t.integer  "stacksize",                     :default => 0,   :null => false
-    t.integer  "UNK130",                        :default => 0,   :null => false
-    t.integer  "proceffect",                    :default => 0,   :null => false
-    t.integer  "proctype",                      :default => 0,   :null => false
-    t.integer  "proclevel2",                    :default => 0,   :null => false
-    t.integer  "proclevel",                     :default => 0,   :null => false
-    t.integer  "UNK135",                        :default => 0,   :null => false
-    t.integer  "worneffect",                    :default => 0,   :null => false
-    t.integer  "worntype",                      :default => 0,   :null => false
-    t.integer  "wornlevel2",                    :default => 0,   :null => false
-    t.integer  "wornlevel",                     :default => 0,   :null => false
-    t.integer  "UNK140",                        :default => 0,   :null => false
-    t.integer  "focustype",                     :default => 0,   :null => false
-    t.integer  "focuslevel2",                   :default => 0,   :null => false
-    t.integer  "focuslevel",                    :default => 0,   :null => false
-    t.integer  "UNK145",                        :default => 0,   :null => false
-    t.integer  "scrolleffect",                  :default => 0,   :null => false
-    t.integer  "scrolltype",                    :default => 0,   :null => false
-    t.integer  "scrolllevel2",                  :default => 0,   :null => false
-    t.integer  "scrolllevel",                   :default => 0,   :null => false
-    t.integer  "UNK150",                        :default => 0,   :null => false
+    t.integer  "minstatus",       :limit => 2,  :default => 0,     :null => false
+    t.string   "name",            :limit => 64, :default => "",    :null => false
+    t.integer  "aagi",                          :default => 0,     :null => false
+    t.integer  "ac",                            :default => 0,     :null => false
+    t.integer  "accuracy",                      :default => 0,     :null => false
+    t.integer  "acha",                          :default => 0,     :null => false
+    t.integer  "adex",                          :default => 0,     :null => false
+    t.integer  "aint",                          :default => 0,     :null => false
+    t.integer  "artifactflag",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "asta",                          :default => 0,     :null => false
+    t.integer  "astr",                          :default => 0,     :null => false
+    t.integer  "attack",                        :default => 0,     :null => false
+    t.integer  "augrestrict",                   :default => 0,     :null => false
+    t.integer  "augslot1type",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "augslot2type",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "augslot3type",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "augslot4type",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "augslot5type",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "augtype",                       :default => 0,     :null => false
+    t.integer  "avoidance",                     :default => 0,     :null => false
+    t.integer  "awis",                          :default => 0,     :null => false
+    t.integer  "bagsize",                       :default => 0,     :null => false
+    t.integer  "bagslots",                      :default => 0,     :null => false
+    t.integer  "bagtype",                       :default => 0,     :null => false
+    t.integer  "bagwr",                         :default => 0,     :null => false
+    t.integer  "banedmgamt",                    :default => 0,     :null => false
+    t.integer  "banedmgraceamt",                :default => 0,     :null => false
+    t.integer  "banedmgbody",                   :default => 0,     :null => false
+    t.integer  "banedmgrace",                   :default => 0,     :null => false
+    t.integer  "bardtype",                      :default => 0,     :null => false
+    t.integer  "bardvalue",                     :default => 0,     :null => false
+    t.integer  "book",                          :default => 0,     :null => false
+    t.integer  "casttime",                      :default => 0,     :null => false
+    t.integer  "casttime_",                     :default => 0,     :null => false
+    t.string   "charmfile",       :limit => 32, :default => "",    :null => false
+    t.string   "charmfileid",     :limit => 32, :default => "",    :null => false
+    t.integer  "classes",                       :default => 0,     :null => false
+    t.integer  "color",                         :default => 0,     :null => false
+    t.string   "combateffects",   :limit => 10, :default => "",    :null => false
+    t.integer  "extradmgskill",                 :default => 0,     :null => false
+    t.integer  "extradmgamt",                   :default => 0,     :null => false
+    t.integer  "price",                         :default => 0,     :null => false
+    t.integer  "cr",                            :default => 0,     :null => false
+    t.integer  "damage",                        :default => 0,     :null => false
+    t.integer  "damageshield",                  :default => 0,     :null => false
+    t.integer  "deity",                         :default => 0,     :null => false
+    t.integer  "delay",                         :default => 0,     :null => false
+    t.integer  "augdistiller",                  :default => 0,     :null => false
+    t.integer  "dotshielding",                  :default => 0,     :null => false
+    t.integer  "dr",                            :default => 0,     :null => false
+    t.integer  "clicktype",                     :default => 0,     :null => false
+    t.integer  "clicklevel2",                   :default => 0,     :null => false
+    t.integer  "elemdmgtype",                   :default => 0,     :null => false
+    t.integer  "elemdmgamt",                    :default => 0,     :null => false
+    t.integer  "endur",                         :default => 0,     :null => false
+    t.integer  "factionamt1",                   :default => 0,     :null => false
+    t.integer  "factionamt2",                   :default => 0,     :null => false
+    t.integer  "factionamt3",                   :default => 0,     :null => false
+    t.integer  "factionamt4",                   :default => 0,     :null => false
+    t.integer  "factionmod1",                   :default => 0,     :null => false
+    t.integer  "factionmod2",                   :default => 0,     :null => false
+    t.integer  "factionmod3",                   :default => 0,     :null => false
+    t.integer  "factionmod4",                   :default => 0,     :null => false
+    t.string   "filename",        :limit => 32, :default => "",    :null => false
+    t.integer  "focuseffect",                   :default => 0,     :null => false
+    t.integer  "fr",                            :default => 0,     :null => false
+    t.integer  "fvnodrop",                      :default => 0,     :null => false
+    t.integer  "haste",                         :default => 0,     :null => false
+    t.integer  "clicklevel",                    :default => 0,     :null => false
+    t.integer  "hp",                            :default => 0,     :null => false
+    t.integer  "regen",                         :default => 0,     :null => false
+    t.integer  "icon",                          :default => 0,     :null => false
+    t.string   "idfile",          :limit => 30, :default => "",    :null => false
+    t.integer  "itemclass",                     :default => 0,     :null => false
+    t.integer  "itemtype",                      :default => 0,     :null => false
+    t.integer  "ldonprice",                     :default => 0,     :null => false
+    t.integer  "ldontheme",                     :default => 0,     :null => false
+    t.integer  "ldonsold",                      :default => 0,     :null => false
+    t.integer  "light",                         :default => 0,     :null => false
+    t.string   "lore",            :limit => 80, :default => "",    :null => false
+    t.integer  "loreflag",        :limit => 1,  :default => 0,     :null => false
+    t.integer  "magic",                         :default => 0,     :null => false
+    t.integer  "mana",                          :default => 0,     :null => false
+    t.integer  "manaregen",                     :default => 0,     :null => false
+    t.integer  "material",                      :default => 0,     :null => false
+    t.integer  "maxcharges",                    :default => 0,     :null => false
+    t.integer  "mr",                            :default => 0,     :null => false
+    t.integer  "nodrop",                        :default => 0,     :null => false
+    t.integer  "norent",                        :default => 0,     :null => false
+    t.integer  "pendingloreflag", :limit => 1,  :default => 0,     :null => false
+    t.integer  "pr",                            :default => 0,     :null => false
+    t.integer  "procrate",                      :default => 0,     :null => false
+    t.integer  "races",                         :default => 0,     :null => false
+    t.integer  "_range",                        :default => 0,     :null => false
+    t.integer  "reclevel",                      :default => 0,     :null => false
+    t.integer  "recskill",                      :default => 0,     :null => false
+    t.integer  "reqlevel",                      :default => 0,     :null => false
+    t.float    "sellrate",                      :default => 0.0,   :null => false
+    t.integer  "shielding",                     :default => 0,     :null => false
+    t.integer  "size",                          :default => 0,     :null => false
+    t.integer  "skillmodtype",                  :default => 0,     :null => false
+    t.integer  "skillmodvalue",                 :default => 0,     :null => false
+    t.integer  "slots",                         :default => 0,     :null => false
+    t.integer  "clickeffect",                   :default => 0,     :null => false
+    t.integer  "spellshield",                   :default => 0,     :null => false
+    t.integer  "strikethrough",                 :default => 0,     :null => false
+    t.integer  "stunresist",                    :default => 0,     :null => false
+    t.integer  "summonedflag",    :limit => 1,  :default => 0,     :null => false
+    t.integer  "tradeskills",                   :default => 0,     :null => false
+    t.integer  "favor",                         :default => 0,     :null => false
+    t.integer  "weight",                        :default => 0,     :null => false
+    t.integer  "unknown002",                    :default => 0,     :null => false
+    t.integer  "unknown003",                    :default => 0,     :null => false
+    t.integer  "unknown005",                    :default => 0,     :null => false
+    t.integer  "unknown007",                    :default => 0,     :null => false
+    t.integer  "unknown018",                    :default => 0,     :null => false
+    t.integer  "unknown019",                    :default => 0,     :null => false
+    t.integer  "unknown020",                    :default => 0,     :null => false
+    t.integer  "UNK012",                        :default => 0,     :null => false
+    t.integer  "UNK013",                        :default => 0,     :null => false
+    t.integer  "benefitflag",                   :default => 0,     :null => false
+    t.integer  "unknown061",                    :default => 0,     :null => false
+    t.integer  "UNK054",                        :default => 0,     :null => false
+    t.integer  "unknown067",                    :default => 0,     :null => false
+    t.integer  "unknown069",                    :default => 0,     :null => false
+    t.integer  "UNK059",                        :default => 0,     :null => false
+    t.integer  "UNK061",                        :default => 0,     :null => false
+    t.integer  "unknown081",                    :default => 0,     :null => false
+    t.integer  "unknown105",                    :default => 0,     :null => false
+    t.integer  "booktype",                      :default => 0,     :null => false
+    t.integer  "unknown122",                    :default => 0,     :null => false
+    t.string   "unknown123",      :limit => 11, :default => "0",   :null => false
+    t.string   "unknown124",      :limit => 11, :default => "0",   :null => false
+    t.integer  "recastdelay",                   :default => 0,     :null => false
+    t.integer  "recasttype",                    :default => 0,     :null => false
+    t.integer  "guildfavor",                    :default => 0,     :null => false
+    t.string   "unknown128",      :limit => 11, :default => "0",   :null => false
+    t.integer  "UNK117",                        :default => 0,     :null => false
+    t.integer  "UNK118",                        :default => 0,     :null => false
+    t.integer  "attuneable",                    :default => 0,     :null => false
+    t.integer  "nopet",                         :default => 0,     :null => false
+    t.string   "unknown133",      :limit => 11, :default => "0",   :null => false
+    t.datetime "updated",                                          :null => false
+    t.string   "comment",                       :default => "",    :null => false
+    t.integer  "UNK121",                        :default => 0,     :null => false
+    t.integer  "pointtype",                     :default => 0,     :null => false
+    t.integer  "potionbelt",                    :default => 0,     :null => false
+    t.integer  "UNK124",                        :default => 0,     :null => false
+    t.integer  "stacksize",                     :default => 0,     :null => false
+    t.integer  "UNK130",                        :default => 0,     :null => false
+    t.integer  "proceffect",                    :default => 0,     :null => false
+    t.integer  "proctype",                      :default => 0,     :null => false
+    t.integer  "proclevel2",                    :default => 0,     :null => false
+    t.integer  "proclevel",                     :default => 0,     :null => false
+    t.integer  "UNK135",                        :default => 0,     :null => false
+    t.integer  "worneffect",                    :default => 0,     :null => false
+    t.integer  "worntype",                      :default => 0,     :null => false
+    t.integer  "wornlevel2",                    :default => 0,     :null => false
+    t.integer  "wornlevel",                     :default => 0,     :null => false
+    t.integer  "UNK140",                        :default => 0,     :null => false
+    t.integer  "focustype",                     :default => 0,     :null => false
+    t.integer  "focuslevel2",                   :default => 0,     :null => false
+    t.integer  "focuslevel",                    :default => 0,     :null => false
+    t.integer  "UNK145",                        :default => 0,     :null => false
+    t.integer  "scrolleffect",                  :default => 0,     :null => false
+    t.integer  "scrolltype",                    :default => 0,     :null => false
+    t.integer  "scrolllevel2",                  :default => 0,     :null => false
+    t.integer  "scrolllevel",                   :default => 0,     :null => false
+    t.integer  "UNK150",                        :default => 0,     :null => false
     t.datetime "serialized"
     t.datetime "verified"
     t.text     "serialization"
-    t.string   "source",          :limit => 20, :default => "",  :null => false
-    t.integer  "UNK033",                        :default => 0,   :null => false
+    t.string   "source",          :limit => 20, :default => "",    :null => false
+    t.integer  "UNK033",                        :default => 0,     :null => false
     t.integer  "alla_id",                       :default => 0
+    t.boolean  "hidden",                        :default => false
   end
 
   add_index "items", ["aagi"], :name => "index_items_on_aagi"
@@ -295,13 +296,15 @@ ActiveRecord::Schema.define(:version => 20101122084351) do
   end
 
   create_table "reports", :force => true do |t|
-    t.string   "problem_object_type"
-    t.string   "problem_id"
+    t.integer  "problemable_id"
+    t.string   "problemable_type"
     t.text     "description"
-    t.boolean  "fixed",               :default => false
+    t.boolean  "fixed",            :default => false
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "comment"
+    t.integer  "fixer"
   end
 
   create_table "spells", :force => true do |t|
@@ -522,9 +525,9 @@ ActiveRecord::Schema.define(:version => 20101122084351) do
   end
 
   create_table "users", :force => true do |t|
-    t.string   "email",                               :default => "", :null => false
-    t.string   "encrypted_password",   :limit => 128, :default => "", :null => false
-    t.string   "password_salt",                       :default => "", :null => false
+    t.string   "email",                               :default => "",    :null => false
+    t.string   "encrypted_password",   :limit => 128, :default => "",    :null => false
+    t.string   "password_salt",                       :default => "",    :null => false
     t.string   "reset_password_token"
     t.string   "remember_token"
     t.datetime "remember_created_at"
@@ -535,6 +538,7 @@ ActiveRecord::Schema.define(:version => 20101122084351) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "admin",                               :default => false
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

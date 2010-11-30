@@ -1,9 +1,13 @@
 .container
-  %p.not_classic
-    = link_to('Not classic? Report this item!', report_non_classic_path(@item.id))
+  .not_classic
+    %p
+      = link_to('Not classic? Report this item!', report_non_classic_path(@item.id))
+    %p
+      = link_to('Other problem? Fill out the form!', new_report_path(:type => 'Item', :id => @item.id))
   = render :partial => 'profiles/item', :locals => {:item => @item}
-  %p
-    = link_to('Allakazam link', "http://everquest.allakhazam.com/db/item.html?item=#{@item.alla_id}", :target => '_blank')
+  - if @item.alla_id > 0
+    %p
+      = link_to('Allakazam link', "http://everquest.allakhazam.com/db/item.html?item=#{@item.alla_id}", :target => '_blank')
   %br.clear
 
 #disqus_thread

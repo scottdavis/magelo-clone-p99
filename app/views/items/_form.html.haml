@@ -1,0 +1,7 @@
+= form_for(@item) do |f|
+  - Item.columns.map(&:name).each do |col|
+    - next if ['id', 'unknown', 'serialized', 'serialization', 'verified'].include?(col)
+    %p
+      = f.label col
+      = f.text_field col
+  = f.submit

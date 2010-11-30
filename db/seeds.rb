@@ -117,7 +117,8 @@ RaceToClass.create!(:race => race["Wood Elf"], :eq_class => klass['Warrior'])
 
 
 me = User.create!(:email => 'jetviper21@gmail.com', :password => 'guitar')
-
+me.admin = true
+me.save
 c = Character.create!(:eq_class => klass['Necromancer'], :level => 50, :deity => 'Bertoxxulous', :user => me, :name => 'Stairs', :surname => 'Protected', :str => 60, :sta => 75, :dex => 95, :agi => 85, :wis => 67,
                       :int => 133, :cha => 60, :pr => 15, :mr => 25, :dr => 15, :fr=> 25, :cr => 25, :race => race["Gnome"])
                       

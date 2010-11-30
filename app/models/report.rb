@@ -1,4 +1,6 @@
 class Report < ActiveRecord::Base
   belongs_to :user
-  validates_presence_of :problem_object_type, :problem_id, :description, :user_id
+  belongs_to :problemable, :polymorphic => true
+  validates_presence_of :problemable_type, :problemable_id, :description, :user_id
+  scope :not_fixed, where(:fixed => false)
 end

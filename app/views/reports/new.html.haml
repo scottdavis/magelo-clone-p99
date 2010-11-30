@@ -1,0 +1,17 @@
+- if @report.errors.any?
+  #errorExplanation
+    %h2
+      = pluralize(@report.errors.count, "error")
+      prohibited this user from being saved:
+    %ul
+      - @report.errors.full_messages.each do |msg|
+        %li= filter_stat_name(msg)
+= form_for(@report) do |f|
+  %p
+    Type:
+    = params[:type]
+  %p= f.label :description
+  %p= f.text_area :description, :cols => 80
+  = f.hidden_field :problemable_id
+  = f.hidden_field :problemable_type
+  %p= f.submit

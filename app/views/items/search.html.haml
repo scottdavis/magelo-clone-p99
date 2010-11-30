@@ -5,7 +5,7 @@
       = f.text_field :name
     %p
       = f.label :classes
-      = f.select :classes, ApplicationHelper::CLASSES.merge(:all => (32767+32768)).map {|k,v| [k.to_s.upcase ,v]}
+      = f.select :classes, ApplicationHelper::CLASSES.merge(:all => (32767+32768)).map {|k,v| [k.to_s.upcase ,v]}.sort {|a,b| a[0] <=> b[0]}
     %h3 Stats
     %hr
     .stats
