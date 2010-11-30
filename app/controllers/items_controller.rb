@@ -13,6 +13,10 @@ class ItemsController < ApplicationController
       format.html do
         return unless params[:item_search]
         expires_in 5.minutes, :public => true if Rails.env == 'production'
+        if params[:item_search].all? {|k, v| v.blank? }
+          redirect_to items_search_path, :notice => "Please enter a query"
+          return
+        end
         @items = ItemSearch.new(params[:item_search]).items(params[:page])
         render :action => :index
       end

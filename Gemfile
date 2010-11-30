@@ -33,6 +33,6 @@ gem "compass", ">= 0.10.0"
 gem 'devise', ">= 1.1.3"
 gem 'shoulda'
 gem 'mongrel'
-gem 'will_paginate'
+gem 'will_paginate', '~> 3.0.beta'
 gem 'rack-cache', :require => 'rack/cache'
 gem 'high_voltage'
