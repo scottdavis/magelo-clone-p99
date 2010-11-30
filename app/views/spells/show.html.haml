@@ -1,0 +1,5 @@
+.container
+  - Spell.columns.map(&:name).each do |col|
+    %p
+      = "#{col}: "
+      = @spell.send(col)

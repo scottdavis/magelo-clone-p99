@@ -19,7 +19,7 @@ class ItemSearch
   private
 
   def find_items(page = nil)
-    Item.where(conditions).paginate(:page => page, :per_page => 35)
+    Item.where(conditions).order('name').paginate(:page => page, :per_page => 35)
   end
   
   

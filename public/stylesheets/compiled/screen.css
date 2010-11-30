@@ -587,3 +587,9 @@ body {
 .reports table tr.alt {
   background-color: #ddd;
 }
+
+/* line 438, ../../../app/stylesheets/screen.scss */
+h3 a {
+  color: black;
+  text-decoration: underline;
+}

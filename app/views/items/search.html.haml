@@ -5,19 +5,30 @@
       = f.text_field :name
     %p
       = f.label :classes
-      = f.select :classes, ApplicationHelper::CLASSES.merge(:all => (32767+32768)).map {|k,v| [k.to_s.upcase ,v]}.sort {|a,b| a[0] <=> b[0]}
-    %h3 Stats
-    %hr
-    .stats
-      - [:astr, :asta, :aagi, :adex, :awis, :aint, :acha].each do |stat|
-        %p
-          = f.label stat.to_s.gsub(/^a/, '')
-          greater than
-          = f.text_field stat
-      - [:hp, :mana, :pr, :mr, :dr, :fr, :cr].each do |stat|
-        %p
-          = f.label stat
-          greater than
-          = f.text_field stat
+      = f.select :classes, ApplicationHelper::CLASSES.merge(:any => nil, :all => (32767+32768)).map {|k,v| [k.to_s.upcase ,v]}.sort {|a,b| a[0] <=> b[0]}
+    %p
+      %h3
+        %a{:onclick => "$('#search_stats').toggle();"}
+          Search Stats (click)
+    #search_stats{:style => 'display:none'}
+      %hr
+      .stats
+        - [:astr, :asta, :aagi, :adex, :awis, :aint, :acha].each do |stat|
+          %p
+            = f.label stat.to_s.gsub(/^a/, '')
+            greater than
+            = f.text_field stat
+    %p
+      %h3
+        %a{:onclick => "$('#search_resists').toggle();"}
+          Search Resists (click)
+    #search_resists{:style => 'display:none'}
+      %hr
+      .stats
+        - [:hp, :mana, :pr, :mr, :dr, :fr, :cr].each do |stat|
+          %p
+            = f.label stat
+            greater than
+            = f.text_field stat
     %p
       = f.submit :search

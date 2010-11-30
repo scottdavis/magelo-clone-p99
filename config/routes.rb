@@ -8,6 +8,7 @@ get '/items/named/:name' => 'items#show'
 get '/items/search' => 'items#search'
 post '/item/:id/hide' => 'items#hide', :as => 'item_hide'
 resources :items
+resources :spells
 match '/profiles/:id/slots' => 'profiles#slots', :as => 'profile_slot'
 get '/search' => 'landing#search'
 get '/reports/non_classic/:id' => 'reports#non_classic', :as => 'report_non_classic'
